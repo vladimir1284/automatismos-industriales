@@ -1,6 +1,6 @@
 # Variante 58. Tanque de almacenamiento de propano
 
-> Página 61 del PDF original (variante 60 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ![Sinóptico del tanque de almacenamiento de propano](imagenes/variante-58-esquema.png)
 

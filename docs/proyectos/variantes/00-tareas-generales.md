@@ -1,7 +1,5 @@
 # Tarea extraclase de Automatización Industrial y Autómatas
 
-Origen: `TAREA_EXTRACLASE_DE_AUTOMATIZACIÓN_INDUSTRIAL_Y_AUTÓMATAS_(1).pdf` (64 páginas).
-
 A partir de la variante asignada realice las siguientes tareas:
 
 1. Describir del funcionamiento del proceso. Seleccionar los sensores y actuadores. Determinar el tipo de entradas y salidas.

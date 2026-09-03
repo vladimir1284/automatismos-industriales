@@ -1,6 +1,6 @@
 # Variante 40. Sistema de cintas transportadoras y plataforma móvil
 
-> Páginas 41–42 del PDF original (variante 41 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Descripción del proceso
 

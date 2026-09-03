@@ -1,6 +1,6 @@
 # Variante 24. Planta para la elaboración del nitrato de amonio
 
-> Página 28 del PDF original (variante 25 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Descripción del proceso
 

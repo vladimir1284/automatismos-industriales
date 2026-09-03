@@ -1,6 +1,6 @@
 # Variante 9. Control de temperatura de un líquido
 
-> Páginas 12–13 del PDF original (variante 9 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Elementos del proceso
 

@@ -1,6 +1,6 @@
 # Variante 45. Llenado de vagoneta
 
-> Páginas 47–48 del PDF original (variante 46 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ![Esquema electroneumático para la carga de una vagoneta con mineral](imagenes/variante-45-esquema.png)
 

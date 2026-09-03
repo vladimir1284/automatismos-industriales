@@ -1,17 +1,10 @@
 # Proyectos
 
-Variantes de proyecto del curso. Origen: conversión a Markdown de
-`TAREA_EXTRACLASE_DE_AUTOMATIZACIÓN_INDUSTRIAL_Y_AUTÓMATAS_(1).pdf` (64
-páginas). Un fichero por variante; las figuras están en
+Variantes de proyecto del curso. Un fichero por variante; las figuras están en
 [`variantes/imagenes/`](variantes/imagenes/) y se referencian desde el
 `.md` correspondiente.
 
 - [00-tareas-generales.md](variantes/00-tareas-generales.md) — las 9 tareas que se piden para cualquier variante.
-
-**Numeración:** el PDF original salta la variante 12 y la 49, y repite el
-número 62 (prensa hidráulica y vaciado continuo de acero). Aquí se ha
-renumerado de forma secuencial (1 a 63) para evitar huecos y duplicados;
-cada ficha indica entre paréntesis su número en el documento original.
 
 | # | Variante | Fichero |
 |---|---|---|
@@ -78,19 +71,3 @@ cada ficha indica entre paréntesis su número en el documento original.
 | 61 | Vaciado continuo de acero. ACINOX-Tunas | [md](variantes/variante-61-vaciado-continuo-de-acero.md) |
 | 62 | Secador biotecnología | [md](variantes/variante-62-secador-biotecnologia.md) |
 | 63 | Planta potabilizadora de agua | [md](variantes/variante-63-planta-potabilizadora-de-agua.md) |
-
-## Notas sobre la conversión
-
-- **OCR:** en las páginas 1 a 27 del PDF el texto de las descripciones no
-  existía como texto, sino como capturas de imagen pegadas en el
-  documento; ese texto se transcribió a mano. El resto (páginas 28-64)
-  tenía capa de texto y se extrajo directamente.
-- **Variantes sin figura en el original:** 27, 30, 38 y 60 (prensa
-  hidráulica).
-- **Variantes sin texto en el original:** 51, 62 y 63 (sólo figura).
-- **Recortes mixtos:** en las variantes 9 y 19 la imagen del PDF incluye,
-  además del esquema, un párrafo de texto que también aparece transcrito
-  en el `.md`; se indica en el pie de figura.
-- **Tablas:** las tablas de variables de las variantes 54 a 58 se
-  transcribieron a Markdown y además se adjunta la imagen original de
-  cada una para poder contrastarlas.

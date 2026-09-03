@@ -1,6 +1,6 @@
 # Variante 4. Llenado de contenedores
 
-> Páginas 5–6 del PDF original (variante 4 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Elementos del proceso
 

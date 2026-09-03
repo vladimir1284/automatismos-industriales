@@ -1,6 +1,6 @@
 # Variante 39. Planta de fabricación de arroz con leche
 
-> Páginas 40–41 del PDF original (variante 40 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Descripción del proceso
 

@@ -1,6 +1,6 @@
 # Variante 46. Limpieza química de piezas
 
-> Páginas 48–49 del PDF original (variante 47 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ![Esquema electroneumático de la instalación de limpieza química de piezas](imagenes/variante-46-esquema.png)
 

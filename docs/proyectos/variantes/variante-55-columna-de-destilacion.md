@@ -1,6 +1,6 @@
 # Variante 55. Columna de destilación
 
-> Página 58 del PDF original (variante 57 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ![Esquema P&ID de la columna de destilación](imagenes/variante-55-esquema.png)
 

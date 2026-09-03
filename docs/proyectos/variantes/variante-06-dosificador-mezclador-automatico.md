@@ -1,6 +1,6 @@
 # Variante 6. Dosificador mezclador automático
 
-> Páginas 8–9 del PDF original (variante 6 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ![Esquema del dosificador mezclador automático](imagenes/variante-06-esquema.png)
 

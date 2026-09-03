@@ -1,8 +1,8 @@
 # Variante 61. Vaciado continuo de acero. ACINOX-Tunas
 
-> Páginas 62–63 del PDF original (variante 62 (bis) en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 >
-> Atención: el documento original numera esta variante también como 62, duplicando el número con la prensa hidráulica ([variante 60](variante-60-prensa-hidraulica.md)); aquí se han separado en dos variantes con numeración secuencial propia.
+> Nota: esta variante y la [prensa hidráulica](variante-60-prensa-hidraulica.md) se han separado en variantes independientes.
 
 ## Descripción del proceso
 

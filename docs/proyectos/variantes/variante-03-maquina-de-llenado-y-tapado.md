@@ -1,6 +1,6 @@
 # Variante 3. Máquina de llenado y tapado
 
-> Páginas 4–5 del PDF original (variante 3 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Descripción del proceso
 

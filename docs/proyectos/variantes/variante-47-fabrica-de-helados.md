@@ -1,8 +1,6 @@
 # Variante 47. Fábrica de helados
 
-> Páginas 49–50 del PDF original (variante 48 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
->
-> Nota: en el documento original no existe la variante 49 (la numeración saltaba de la 48 a la 50); aquí se ha renumerado de forma secuencial.
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ![Flujo tecnológico de la fábrica de helados](imagenes/variante-47-esquema.png)
 

@@ -1,6 +1,6 @@
 # Variante 48. La pasteurizadora de soja (dos estudiantes)
 
-> Páginas 50–53 del PDF original (variante 50 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## 1. Descripción del flujo tecnológico de la obtención y cocción de la leche de soja
 

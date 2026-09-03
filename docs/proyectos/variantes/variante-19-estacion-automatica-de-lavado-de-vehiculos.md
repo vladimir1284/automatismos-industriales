@@ -1,6 +1,6 @@
 # Variante 19. Estación automática de lavado de vehículos
 
-> Páginas 22–23 del PDF original (variante 20 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Elementos del proceso
 

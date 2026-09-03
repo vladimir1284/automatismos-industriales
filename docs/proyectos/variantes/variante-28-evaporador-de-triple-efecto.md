@@ -1,6 +1,6 @@
 # Variante 28. Evaporador de triple efecto
 
-> Página 31 del PDF original (variante 29 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ![Esquema del evaporador de triple efecto (alternativa en cascada)](imagenes/variante-28-esquema.png)
 

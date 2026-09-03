@@ -1,6 +1,6 @@
 # Variante 13. Maniobra para prensa de fundición inyectada
 
-> Página 17 del PDF original (variante 14 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Descripción del proceso
 

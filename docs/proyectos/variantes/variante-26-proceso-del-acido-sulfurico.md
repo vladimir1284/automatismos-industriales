@@ -1,6 +1,6 @@
 # Variante 26. Proceso del ácido sulfúrico
 
-> Páginas 29–30 del PDF original (variante 27 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Descripción del proceso
 

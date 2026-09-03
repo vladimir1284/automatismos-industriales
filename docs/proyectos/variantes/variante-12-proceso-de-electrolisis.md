@@ -1,6 +1,6 @@
 # Variante 12. Proceso de electrólisis
 
-> Página 16 del PDF original (variante 13 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Elementos del proceso
 

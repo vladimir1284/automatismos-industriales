@@ -1,6 +1,6 @@
 # Variante 23. Volcado de mezcla de cemento
 
-> Páginas 26–27 del PDF original (variante 24 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Elementos del proceso
 

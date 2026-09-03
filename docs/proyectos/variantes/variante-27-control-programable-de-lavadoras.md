@@ -1,8 +1,8 @@
 # Variante 27. Control programable de lavadoras
 
-> Páginas 30–31 del PDF original (variante 28 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 >
-> Esta variante no tiene figura asociada en el documento original.
+> Nota: esta variante no tiene figura asociada.
 
 ## Descripción del proceso
 

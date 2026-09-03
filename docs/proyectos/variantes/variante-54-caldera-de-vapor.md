@@ -1,6 +1,6 @@
 # Variante 54. Caldera de vapor
 
-> Página 57 del PDF original (variante 56 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ![Esquema P&ID de la caldera de vapor](imagenes/variante-54-esquema.png)
 

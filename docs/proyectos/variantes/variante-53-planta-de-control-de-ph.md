@@ -1,6 +1,6 @@
 # Variante 53. Planta de control de pH
 
-> Páginas 56–57 del PDF original (variante 55 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Esquema del proceso
 

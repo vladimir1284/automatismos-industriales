@@ -1,6 +1,6 @@
 # Variante 25. Sistema de refinación de azúcar
 
-> Páginas 28–29 del PDF original (variante 26 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Descripción del proceso
 

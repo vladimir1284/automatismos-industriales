@@ -1,6 +1,6 @@
 # Variante 57. Separación de gas
 
-> Página 60 del PDF original (variante 59 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ![Sinóptico del proceso de separación de gas con los separadores 1 y 2](imagenes/variante-57-esquema.png)
 

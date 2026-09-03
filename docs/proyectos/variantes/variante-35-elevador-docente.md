@@ -1,6 +1,6 @@
 # Variante 35. Elevador docente
 
-> Página 36 del PDF original (variante 36 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Descripción del proceso
 

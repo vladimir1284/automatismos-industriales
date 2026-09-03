@@ -1,6 +1,6 @@
 # Variante 41. Sistema de etiquetaje
 
-> Páginas 42–43 del PDF original (variante 42 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Descripción del proceso
 

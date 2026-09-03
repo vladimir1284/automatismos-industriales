@@ -1,6 +1,6 @@
 # Variante 2. Llenado de silos de cereales
 
-> Páginas 2–3 del PDF original (variante 2 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ![Esquema de la instalación de llenado de silos](imagenes/variante-02-esquema.png)
 

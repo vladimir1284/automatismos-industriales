@@ -1,6 +1,6 @@
 # Variante 34. Proceso de secado
 
-> Páginas 35–36 del PDF original (variante 35 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ![Diagrama de la instalación de secado (pedido n.º ES-404776)](imagenes/variante-34-esquema.png)
 

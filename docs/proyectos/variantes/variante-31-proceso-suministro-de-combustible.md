@@ -1,6 +1,6 @@
 # Variante 31. Proceso suministro de combustible
 
-> Página 33 del PDF original (variante 32 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Descripción del proceso
 

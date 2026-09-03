@@ -1,8 +1,6 @@
 # Variante 11. Automatización del trabajo de una grúa
 
-> Páginas 14–15 del PDF original (variante 11 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
->
-> Nota: en el documento original no existe la variante 12 (la numeración saltaba de la 11 a la 13); aquí se ha renumerado de forma secuencial.
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Descripción del proceso
 

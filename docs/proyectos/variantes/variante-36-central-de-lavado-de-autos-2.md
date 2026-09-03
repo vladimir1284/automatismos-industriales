@@ -1,6 +1,6 @@
 # Variante 36. Central de lavado de autos 2
 
-> Páginas 36–38 del PDF original (variante 37 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ![Vista del tren de lavado lineal](imagenes/variante-36-esquema.png)
 

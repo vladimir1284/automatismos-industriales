@@ -1,6 +1,6 @@
 # Variante 22. Estación de embalaje de paquetes
 
-> Páginas 25–26 del PDF original (variante 23 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Elementos del proceso
 

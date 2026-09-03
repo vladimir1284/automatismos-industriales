@@ -1,6 +1,6 @@
 # Variante 17. Movimiento de vaivén de un móvil
 
-> Página 21 del PDF original (variante 18 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Elementos del proceso
 

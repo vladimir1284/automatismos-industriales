@@ -1,6 +1,6 @@
 # Variante 21. Elevador clasificador para paquetes
 
-> Páginas 24–25 del PDF original (variante 22 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Elementos del proceso
 

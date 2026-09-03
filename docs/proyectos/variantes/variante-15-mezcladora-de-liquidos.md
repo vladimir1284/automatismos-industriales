@@ -1,6 +1,6 @@
 # Variante 15. Mezcladora de líquidos
 
-> Página 19 del PDF original (variante 16 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Elementos del proceso
 

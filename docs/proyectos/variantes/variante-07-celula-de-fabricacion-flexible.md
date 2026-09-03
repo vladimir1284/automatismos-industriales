@@ -1,6 +1,6 @@
 # Variante 7. Célula de fabricación flexible
 
-> Páginas 9–10 del PDF original (variante 7 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Descripción del proceso
 

@@ -1,6 +1,6 @@
 # Variante 59. Obtención del biodiesel a partir de la cachaza (dos estudiantes)
 
-> Página 62 del PDF original (variante 61 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ![Diagrama de la planta de obtención de biodiesel a partir de la cachaza](imagenes/variante-59-esquema.png)
 

@@ -1,6 +1,6 @@
 # Variante 37. Reactor químico
 
-> Página 38 del PDF original (variante 38 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ![Esquema del reactor químico con válvula de escape, agitador, sensores de máxima presión y temperatura, sensores de nivel H1, H2, H3 y válvulas de salida normal y defectuosa](imagenes/variante-37-esquema.png)
 

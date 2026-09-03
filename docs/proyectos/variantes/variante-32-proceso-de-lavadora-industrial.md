@@ -1,6 +1,6 @@
 # Variante 32. Proceso de lavadora industrial
 
-> Páginas 33–34 del PDF original (variante 33 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Descripción del proceso
 
@@ -18,4 +18,3 @@ e) Se energiza una alarma para indicar que terminó el proceso.
 
 ![Esquema de la lavadora industrial: motor M1, motobombas MB1 (detergente), MB2 (suavizante), MB3 (vaciado) y electroválvula EV1 (agua)](imagenes/variante-32-esquema.png)
 
-> Nota: en el documento original la lista anterior aparece repetida a continuación de la figura con la numeración f)–j), con idéntico contenido.

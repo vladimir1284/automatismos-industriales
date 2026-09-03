@@ -1,6 +1,6 @@
 # Variante 44. Clasificador automático de paquetes
 
-> Páginas 46–47 del PDF original (variante 45 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ![Esquema del clasificador automático de paquetes con plato giratorio](imagenes/variante-44-esquema.png)
 

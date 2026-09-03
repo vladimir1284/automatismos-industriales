@@ -1,6 +1,6 @@
 # Variante 10. Tanques de agitación
 
-> Páginas 13–14 del PDF original (variante 10 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Descripción del proceso
 

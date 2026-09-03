@@ -1,6 +1,6 @@
 # Variante 1. Reactores discontinuos en serie
 
-> Páginas 1–2 del PDF original (variante 1 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ![Esquema de los tres reactores discontinuos en serie](imagenes/variante-01-esquema.png)
 

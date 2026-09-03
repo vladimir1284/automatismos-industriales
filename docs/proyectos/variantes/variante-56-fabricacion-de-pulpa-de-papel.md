@@ -1,6 +1,6 @@
 # Variante 56. Fabricación de pulpa de papel
 
-> Página 59 del PDF original (variante 58 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ![Esquema P&ID de la fabricación de pulpa de papel](imagenes/variante-56-esquema.png)
 
@@ -26,7 +26,7 @@
 | 14 | Estado de la bomba 2 | digital | – | – | – | 1 | – |
 | 15 | Temperatura mínima agua | digital | 25 | – | – | 1.5 | °C |
 
-> Nota: las filas 13 y 14 aparecen ambas como "Estado de la bomba 2" en el documento original; probablemente la 14 debería ser la bomba 3.
+> Nota: las filas 13 y 14 aparecen ambas como "Estado de la bomba 2"; probablemente la 14 debería ser la bomba 3.
 
 ## Requisitos adicionales
 

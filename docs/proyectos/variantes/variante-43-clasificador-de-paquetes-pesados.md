@@ -1,6 +1,6 @@
 # Variante 43. Clasificador de paquetes pesados
 
-> Páginas 45–46 del PDF original (variante 44 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ![Esquema del clasificador de paquetes pesados](imagenes/variante-43-esquema.png)
 

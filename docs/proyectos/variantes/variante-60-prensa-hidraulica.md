@@ -1,8 +1,8 @@
 # Variante 60. Prensa hidráulica
 
-> Página 62 del PDF original (variante 62 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 >
-> Atención: el documento original numera como "Variante 62" tanto esta prensa hidráulica como el vaciado continuo de acero ([variante 61](variante-61-vaciado-continuo-de-acero.md)); aquí se han separado en dos variantes con numeración secuencial propia. Esta variante no tiene figura asociada.
+> Nota: esta prensa hidráulica y el [vaciado continuo de acero](variante-61-vaciado-continuo-de-acero.md) se han separado en variantes independientes. Esta variante no tiene figura asociada.
 
 ## Descripción
 

@@ -1,6 +1,6 @@
 # Variante 42. Llenado y transporte de líquido
 
-> Páginas 43–45 del PDF original (variante 43 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Descripción del proceso
 

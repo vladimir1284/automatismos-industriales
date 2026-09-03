@@ -1,6 +1,6 @@
 # Variante 16. Cruce de calles y vía férrea en diagonal regulada por semáforo
 
-> Páginas 19–21 del PDF original (variante 17 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Elementos del proceso
 

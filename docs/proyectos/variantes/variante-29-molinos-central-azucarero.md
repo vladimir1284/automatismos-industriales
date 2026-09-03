@@ -1,6 +1,6 @@
 # Variante 29. Molinos central azucarero
 
-> Páginas 31–32 del PDF original (variante 30 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Descripción del proceso
 

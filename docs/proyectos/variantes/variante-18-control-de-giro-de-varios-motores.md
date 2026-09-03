@@ -1,6 +1,6 @@
 # Variante 18. Control de giro de varios motores
 
-> Página 22 del PDF original (variante 19 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Elementos del proceso
 

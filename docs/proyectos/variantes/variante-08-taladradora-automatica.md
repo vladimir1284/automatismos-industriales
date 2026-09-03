@@ -1,6 +1,6 @@
 # Variante 8. Taladradora automática
 
-> Páginas 10–11 del PDF original (variante 8 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Elementos del proceso
 

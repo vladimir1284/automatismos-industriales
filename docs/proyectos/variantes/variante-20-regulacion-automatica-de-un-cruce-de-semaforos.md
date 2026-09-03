@@ -1,6 +1,6 @@
 # Variante 20. Regulación automática de un cruce de semáforos
 
-> Páginas 23–24 del PDF original (variante 21 en el documento original). Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
+> Tareas a realizar: [00-tareas-generales.md](00-tareas-generales.md)
 
 ## Descripción del proceso
 
