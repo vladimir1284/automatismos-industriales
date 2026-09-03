@@ -1,0 +1,157 @@
+$CATEGORY: $course$/top/AIA
+
+$CATEGORY: $course$/top/AIA/Tema I
+
+$CATEGORY: $course$/top/AIA/Tema I/Actuadores
+
+::Clasificación por tipo de movimiento::Según el tipo de movimiento mecánico que provocan, los actuadores se clasifican en{
+	~%50%lineales
+	~%50%rotatorios
+	~%-50%De velocidad variable#Leer epígrafe 1.3.1 del libro de texto
+	~%-50%Automáticos#Leer epígrafe 1.3.1 del libro de texto
+}
+
+::Clasificación por energía que convierten::Según el tipo de energía que convierten en movimiento mecánico, los actuadores se clasifican en{
+	~%33.333333%Eléctricos
+	~%33.333333%Hidráulicos
+	~%33.333333%Neumáticos
+	~%-50%Eficientes#Leer epígrafe 1.3.1 del libro de texto
+	~%-50%Magnéticos#Leer epígrafe 1.3.1 del libro de texto
+}
+
+::Solenoides::Los solenoides tienen las siguientes características{
+	~%20%Son los actuadores más comunes
+	~%20%Su principio de operación se basa en el movimiento de un núcleo ferromagnético dentro de un enrollado
+	~%20%El núcleo es mantenido fuera de la bobina por un muelle
+	~%20%Cuando la bobina es energizada se crea un campo magnético y el núcleo es atraído hacia el centro de la misma
+	~%20%Pueden ser de corriente alterna o directa
+	~%-50%Utilizan fluidos presurizados o aire para crear una fuerza lineal o movimiento#Leer epígrafe 1.3.2 del libro de texto
+	~%-50%Pueden ser de simple o doble acción#Leer epígrafe 1.3.2 del libro de texto
+}
+
+::Cilindros hidráulicos y neumáticos::Los cilindros hidráulicos y neumáticos tienen las siguientes características{
+	~%25%Utilizan fluidos presurizados o aire para crear una fuerza lineal o movimiento
+	~%25%La fuerza que el cilindro ejerce es proporcional al área de su sección transversal
+	~%25%Pueden ser de simple acción con retorno del pistón mediante la acción de un muelle
+	~%25%Pueden ser de doble acción con retorno mediante el fluido
+	~%-50%Son los actuadores más comunes#Leer epígrafe 1.3.3 del libro de texto
+	~%-50%Pueden ser de corriente alterna o directa#Leer epígrafe 1.3.3 del libro de texto
+}
+
+::Sistema hidráulico::Los componentes de un sistema hidráulico son{
+	~%14.28571%Tanque
+	~%14.28571%Filtro
+	~%14.28571%Bomba
+	~%14.28571%Acumulador
+	~%14.28571%Válvula de control de presión
+	~%14.28571%Válvula de control direccional
+	~%14.28571%Cilindro
+	~%-50%Compresor#Leer epígrafe 1.3.3 del libro de texto
+	~%-50%Secador#Leer epígrafe 1.3.3 del libro de texto
+}
+
+::Sistema neumáticos::Los componentes de un sistema hidráulico son{
+	~%14.28571%Tanque
+	~%14.28571%Filtro
+	~%14.28571%Compresor
+	~%14.28571%Secador
+	~%14.28571%Regulador de presión
+	~%14.28571%Válvula de control
+	~%14.28571%Cilindro
+	~%-50%Bomba#Leer epígrafe 1.3.3 del libro de texto
+	~%-50%Acumulador#Leer epígrafe 1.3.3 del libro de texto
+}
+
+::Motores de corriente alterna::Los motores de corriente alterna pueden ser{
+	~%25%Motores de inducción
+	~%25%Motores sincrónicos
+	~%25%Tipo jaula de ardilla
+	~%25%Rotor bobinado
+	~%-50%Shunt#Leer epígrafe 1.3.3 del libro de texto
+	~%-50%Compound#Leer epígrafe 1.3.3 del libro de texto
+}
+
+::Motores de corriente directa::Los motores de corriente directa pueden ser{
+	~%20%De imán permanente
+	~%20%Con el rotor y el estator bobinados
+	~%20%Motores serie
+	~%20%Motores Shunt (con excitación independiente o paralela)
+	~%20%Motores Compound
+	~%-50%De jaula de ardilla#Leer epígrafe 1.3.4 del libro de texto
+	~%-50%Con anillos deslizantes#Leer epígrafe 1.3.4 del libro de texto
+}
+
+::Motores de corriente alterna::En los motores de corriente alterna{
+	~%25%Se crea un campo magnético giratorio
+	~%25%A medida que aumentan los polos la velocidad del motor disminuye
+	~%25%El campo magnético giratorio del estator induce una corriente en el rotor
+	~%25%La corriente inducida en el devanado del rotor interactúa con el campo magnético del estator para crear un par de fuerzas
+	~%-50%El devanado de excitación puede conectarse en serie o en 
+        paralelo#Leer epígrafe 1.3.4.1 del libro de texto
+	~%-50%Se mueven un paso a la vez#Leer epígrafe 1.3.4.1 del libro de texto
+}
+
+::Motores monofásicos::Los motores monofásicos de corriente alterna pueden ser{
+	~%20%Standard   
+	~%20%De capacitor permanente
+	~%20%De arranque por capacitor
+	~%20%De polo sombreado
+	~%20%Serie universal
+	~%-50%Con arranque por pasos de resistencia#Leer epígrafe 1.3.4.2 del libro de texto
+	~%-50%De imán permanente#Leer epígrafe 1.3.4.2 del libro de texto
+}
+
+::Motores de paso::Los motores de paso{
+	~%25%Son diseñados para posicionadores
+	~%25%Se mueven un paso a la vez
+	~%25%Son unipolares si emplean devanados con derivación central
+	~%25%Son bipolares si requieren una alimentación positiva y negativa
+	~%-50%Crean un campo magnético rotatorio en el estator#Leer epígrafe 1.3.4.3 del libro de texto
+	~%-50%Se emplean en aplicaciones de alta velocidad#Leer epígrafe 1.3.4.3 del libro de texto
+}
+
+Es preferible utilizar actuadores discretos para reducir costo y complejidad {T#Leer epígrafe 1.3.1 del libro de texto}
+
+Los actuadores discretos permiten ajustar la posición en un amplio rango de valores {F#Leer epígrafe 1.3.1 del libro de texto}
+
+El empleo del filtro es de suma importancia para eliminar del sistema los pequeños contaminantes que pueda contener el fluido 
+evitándose la abrasión en diversos componentes del sistema y la reducción de su vida útil{T#Leer epígrafe 1.3.3 del libro de texto}
+
+El empleo del acumulador es de suma importancia para eliminar del sistema los pequeños contaminantes que pueda contener el fluido 
+evitándose la abrasión en diversos componentes del sistema y la reducción de su vida útil{F#Leer epígrafe 1.3.3 del libro de texto}
+
+Los motores de corriente alterna giran con velocidad relativamente constante proporcional a la frecuencia de la fuente de 
+suministro{T#Leer epígrafe 1.3.4 del libro de texto}
+
+Los motores de corriente directa giran con velocidad relativamente constante proporcional a la frecuencia de la fuente de 
+suministro{F#Leer epígrafe 1.3.4 del libro de texto}
+
+Los motores de corriente directa, poseen amplios rangos de velocidad y par{T#Leer epígrafe 1.3.4 del libro de texto}
+
+Los motores de corriente alterna, poseen amplios rangos de velocidad y par{F#Leer epígrafe 1.3.4 del libro de texto}
+
+Los motores de inducción giran a una velocidad ligeramente inferior a la velocidad de rotación del campo magnético 
+y esta diferencia de velocidad es conocida como deslizamiento{T#Leer epígrafe 1.3.4.1 del libro de texto}
+
+Los motores de corriente directa giran a una velocidad ligeramente inferior a la velocidad de rotación del campo 
+magnético y esta diferencia de velocidad es conocida como deslizamiento{F#Leer epígrafe 1.3.4.1 del libro de texto}
+
+Los motores sincrónicos se diferencian de los motores de inducción en que están diseñados para trabajar a velocidad 
+constante igual a la sincrónica{T#Leer epígrafe 1.3.4.1 del libro de texto}
+
+Los motores de corriente directa se diferencian de los motores de inducción en que están diseñados para trabajar a 
+velocidad constante igual a la sincrónica{F#Leer epígrafe 1.3.4.1 del libro de texto}
+
+En los motores serie, cuando la carga disminuye, la velocidad se incrementa pudiendo alcanzar velocidades 
+peligrosas si el motor se encuentra en vacío por lo que no se recomienda en aplicaciones donde se encuentre 
+con muy baja carga{T#Leer epígrafe 1.3.4.2 del libro de texto}
+
+En los motores shunt, cuando la carga disminuye, la velocidad se incrementa pudiendo alcanzar velocidades 
+peligrosas si el motor se encuentra en vacío por lo que no se recomienda en aplicaciones donde se encuentre 
+con muy baja carga{F#Leer epígrafe 1.3.4.2 del libro de texto}
+
+El motor compound es un motor shunt con un devanado serie adicional{T#Leer epígrafe 1.3.4.2 del libro de texto}
+
+El motor serie es un motor shunt con un devanado serie adicional{F#Leer epígrafe 1.3.4.2 del libro de texto}
+
+Los motores de pasos normalmente no requieren retroalimentación{T#Leer epígrafe 1.3.4.3 del libro de texto}

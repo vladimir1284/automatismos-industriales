@@ -1,0 +1,290 @@
+$CATEGORY: $course$/top/AIA
+
+$CATEGORY: $course$/top/AIA/Tema II
+
+$CATEGORY: $course$/top/AIA/Tema II/Relés y Contactores
+
+¿Cuál es la diferencia entre un contactor y un relé (relevador) de control? {
+    =La capacidad interruptiva de sus contactos
+    ~Su principio de funcionamiento
+    ~La cantidad de contactos
+    ~La velocidad de respuesta
+}
+
+¿En que función de que parámetros se debe realizar el mando automático de el accionamiento eléctrico?  {
+    ~%33.333333%En función del tiempo
+    ~%33.333333%En función de la velocidad
+    ~%33.333333%En función de la corriente
+    ~%-50%En función de la tensión
+    ~%-50%En función de la temperatura
+}
+
+// 1. Relé vs Contactor
+Los relés de control son más pesados que los contactores y la corriente que soportan sus contactos es considerablemente mayor. {F#Los relés de control son más ligeros que los contactores, y la corriente que soportan sus contactos es considerablemente menor.}
+
+// 2. Relés de Tiempo Neumáticos
+Los relés de tiempo neumáticos obtienen tiempos de retardo que varían entre ¼ de segundo hasta 180 segundos. {T#Con los relés de tiempo neumático se obtienen tiempos entre ¼ de segundos hasta 180 segundos.}
+
+// 3. Polo de Sombra
+El polo de sombra se utiliza en contactores de corriente continua para evitar la vibración del núcleo al pasar el flujo por cero. {F#Se utiliza en contactores de Corriente Alterna (CA) para evitar la vibración que se produce cuando la corriente magnetizante y el flujo pasan por cero dos veces cada ciclo.}
+
+// 4. Relé Térmico (Protección)
+El relé térmico bimetálico está diseñado para proteger al motor contra cortocircuitos. {F#Protege contra sobrecargas prolongadas, pero no desconecta el motor en caso de cortocircuito.}
+
+// 5. Frenado Dinámico MCA
+El frenado dinámico en motores asincrónicos de corriente alterna (MCA) se logra inyectando corriente alterna en el estator después de desconectarlo de la red. {F#Se logra inyectando corriente directa (CD) en el estator del motor después de desconectarlo de la red.}
+
+// 6. Cámaras de Arqueo
+El propósito de las cámaras de arqueo es reducir el arco y extinguirlo rápidamente, evitando el deterioro de los contactos. {T#Las cámaras de arqueo tienen el propósito de reducir el arco y extinguirlo en el menor tiempo posible, evitando con ello el deterioro de los contactos.}
+
+// 7. Mando en Función de la Corriente y RBL
+En los esquemas de arranque de motor de rotor bobinado en función de la corriente, se utiliza un relé de bloqueo de línea (RBL) para introducir un retardo de tiempo. {T#La función del RBL es introducir un retardo de tiempo en el circuito de control en espera de que los relés de aceleración actúen para la corriente de arranque.}
+
+// 8. Relés de Corriente
+Los relés de corriente también se denominan "relés de protección" y "relés de medición". {T#Los relés de corriente se denominan "relés de medición" porque miden continuamente el nivel de los valores de ejecución, y también "relé de protección" porque protegen contra daños en modo de emergencia.}
+
+// 9. Restauración de Relés Térmicos
+Los relés de sobrecarga con restablecimiento automático son los más usados industrialmente ya que permiten ahorrar tiempo al operador al no tener que buscar la causa de la sobrecarga. {F#Los automáticos no son muy usados porque no le dan el tiempo requerido al operador para averiguar la causa de la sobrecarga.}
+
+// 10. Mando en Función de la Velocidad (CD)
+El mando de arranque de los motores de CD en función de la velocidad utiliza relés de corriente para censar la FEM de armadura. {F#El mando en función de la velocidad se realiza sensando la FEM de armadura utilizando relés de tensión (RV).}
+
+// 11. Contactores de CC
+El núcleo y la armadura de los contactores magnéticos de corriente continua se construyen laminados para evitar el calentamiento. {F#Para contactores de CC, el núcleo y la armadura se forman de un mismo bloque de hierro (macizo) ya que no hay variación de flujo y, por lo tanto, no hay calentamiento por corrientes inducidas.}
+
+// 12. Mando en Función del Tiempo
+El mando de accionamiento eléctrico en función del tiempo es el método más susceptible a las variaciones de la carga y tensión de la red. {F#El método de mando en función de la velocidad presenta esta desventaja, debido a la dificultad que reviste el ajuste de las diferentes tensiones de conmutación ante perturbaciones.}
+
+// 13. Contactor Disyuntor
+El contactor disyuntor integral agrupa las funciones de seccionamiento, conmutación y protección contra cortocircuitos y sobrecargas. {T#El contactor disyuntor integral integra las funciones de seccionamiento, conmutación y protección contra las sobreintensidades (cortocircuitos y sobrecargas).}
+
+// 14. Arranque Estrella-Delta
+Una de las ventajas del arranque estrella-delta es que permite regular de manera continua y precisa la corriente de arranque. {F#La principal desventaja del arranque estrella-delta es que no es regulable.}
+
+// 15. Retardo Electromagnético
+Cortocircuitando la bobina y agregando una "camisa" de cobre son dos métodos para obtener un tiempo de retardo en la operación de los relés electromagnéticos. {T#Estos son dos métodos utilizados para retardar la apertura del relé de control, aprovechando la energía almacenada en el campo magnético o la inducción de corriente en la camisa.}
+
+// 16. Protección Inherente
+El Detector de Klixon es un tipo de protección inherente particularmente útil en motores de estructuras herméticas, como los que se usan en equipos de refrigeración. {T#El Detector de Klixon es útil en motores de estructuras herméticas (unidad sellada) como los que se usan en refrigeración y equipos acondicionadores de aire.}
+
+// 17. Bloqueo Eléctrico
+En los esquemas de accionamiento reversibles se utiliza el bloqueo eléctrico entre contactores principales para garantizar que ambas bobinas direccionales se energicen simultáneamente, pero solo por un tiempo limitado. {F#Se utiliza el bloqueo eléctrico de los contactores principales para *impedir* la conexión en sentido contrario.}
+
+// 18. Arranque MS Asincrónico
+Durante el arranque asincrónico de un motor sincrónico, se utiliza una resistencia de descarga para limitar las tensiones inducidas en el devanado de excitación sin reducir notablemente el par de arranque. {T#El procedimiento más utilizado es cerrar el campo a través de una resistencia de descarga, limitando las tensiones inducidas.}
+
+// 19. Frenado por Contracorriente J/A
+El frenado por contracorriente es la forma más común de frenado en motores de jaula de ardilla, ya que estos motores permiten limitar la corriente de frenado desde el estator. {F#No se suele utilizar para cualquier motor de jaula de ardilla, y solo se emplea en motores de JA de pequeña potencia porque no se tiene acceso al rotor para limitar la corriente de frenado.}
+
+// 20. Relé de Tiempo (Tipos según Retardo)
+Los relés de tiempo, independientemente de la técnica utilizada para producir el retardo, suelen clasificarse como de retardo a la conexión, retardo a la desconexión o por ciclos. {T#Los relés de tiempo suelen ser de retardo a la conexión, retardo a la desconexión o por ciclos.}
+
+Una diferencia fundamental entre los relés de control y los contactores es que los relés de control: {
+=Son más ligeros, la corriente que soportan sus contactos es considerablemente menor, y no necesitan romper arco.
+~Son más pesados y la corriente que soportan sus contactos es considerablemente mayor.
+~Se utilizan exclusivamente para el control de la tensión de línea de CC.
+~Siempre tienen un retardo a la conexión incorporado.
+}
+
+En los contactores de Corriente Alterna (CA), ¿cuál es el propósito de construir el núcleo y la armadura laminados? {
+=Evitar el calentamiento producido por las corrientes inducidas al variar el flujo.
+~Aumentar la fuerza de atracción para el cierre del contactor.
+~Permitir que el contactor opere con un polo de sombra.
+~Reducir el peso total del dispositivo, haciéndolo más competitivo.
+}
+
+¿Cuál es la función principal del polo de sombra en los contactores magnéticos de Corriente Alterna (CA)? {
+=Evitar la vibración de la armadura que tiende a abrirse momentáneamente cuando la corriente magnetizante y el flujo pasan por cero.
+~Proporcionar un flujo adicional desfasado del principal para cerrar los contactos instantáneamente.
+~Permitir la alimentación de la bobina desde una fuente de corriente continua.
+~Disminuir el salto del arco en el momento de la desconexión.
+}
+
+En los contactores magnéticos para corriente continua (CC), el núcleo y la armadura se construyen de un mismo bloque de hierro (macizo) porque: {
+=Al no existir variación en el flujo, no habrá corrientes inducidas ni calentamiento.
+~Se requiere una mayor histéresis del núcleo para reducir la corriente una vez cerrado el contactor.
+~Es necesario que la fuerza de atracción sea proporcional al cuadrado del voltaje de control.
+~Son generalmente más pequeños y solo se usan en circuitos auxiliares.
+}
+
+El propósito de las cámaras de arqueo en los contactores es: {
+=Reducir el arco y extinguirlo en el menor tiempo posible, evitando el deterioro de los contactos.
+~Asegurar que los contactos cierren de manera simultánea en las tres fases.
+~Actuar como un mecanismo de bloqueo mecánico entre los contactores.
+~Laminar el flujo magnético en el núcleo.
+}
+
+¿Cuál es el rango de tiempo de retardo que se obtiene típicamente con los relés de tiempo neumáticos? {
+=Entre ¼ de segundo hasta 180 segundos.
+~Entre 0.1 y 2.5 segundos.
+~Retardos de horas o días.
+~Solo retardos a la desconexión.
+}
+
+Un método simple para obtener un tiempo de retardo en la operación de los relés electromagnéticos es agregar a la bobina: {
+=Un cilindro o "camisa" de cobre, que es una bobina de una sola espira cortocircuitada.
+~Una resistencia de carbón en serie.
+~Un sistema de palancas y engranajes.
+~Un disco bimetálico.
+}
+
+Los relés de tiempo, independientemente de la técnica que utilicen para producir el retardo, suelen clasificarse en: {
+=Retardo a la conexión, retardo a la desconexión o por ciclos.
+~Neumáticos, magnéticos, electrónicos o por motor.
+~De corriente directa y de corriente alterna.
+~De medición y de protección.
+}
+
+Los relés de corriente también se denominan "relés de medición" y "relés de protección" porque: {
+=Miden continuamente el nivel de los valores de ejecución y protegen contra daños en modo de emergencia.
+~Se utilizan exclusivamente para el frenado por contracorriente de motores CD.
+~Tienen la capacidad de variar el tipo de corriente, tensión o frecuencia.
+~Su principio de funcionamiento se basa en el cambio de resistencia con la temperatura.
+}
+
+El relé de sobrecarga térmico bimetálico está diseñado para proteger al motor contra: {
+=Sobrecargas prolongadas.
+~Cortocircuitos, ya que actúa instantáneamente.
+~Bajo voltaje de alimentación.
+~Fallas de aislamiento o pérdidas de fase.
+}
+
+¿Por qué el restablecimiento automático de los relés de sobrecarga no es muy utilizado industrialmente? {
+=Porque no le da al operador el tiempo requerido para averiguar la causa de la sobrecarga.
+~Porque solo son efectivos para motores de pequeña potencia.
+~Porque su curva de disparo es más lenta que la de los térmicos manuales.
+~Porque el motor no puede arrancar automáticamente en sentido contrario.
+}
+
+¿Qué protección inherente se considera particularmente útil en motores de estructuras herméticas (unidad sellada), como las usadas en refrigeración? {
+=Detector de Klixon.
+~Relé de película soldada.
+~Detector de Temperatura Resistivo (RTD).
+~Relé térmico de inducción.
+}
+
+El dispositivo que integra las funciones de seccionamiento, conmutación y protección contra sobreintensidades (cortocircuitos y sobrecargas) es conocido como: {
+=Contactor disyuntor integral.
+~Relé de bloqueo de línea (RBL).
+~Relé polarizado de frecuencia (RPF).
+~Relé térmico de inducción.
+}
+
+Para proteger al motor contra perturbaciones que pueden alcanzar valores muy elevados, como los cortocircuitos, se pueden emplear: {
+=Interruptores termomagnéticos o fusibles.
+~Relés de sobrecarga bimetálicos.
+~Relés de sobrecarga con restablecimiento automático.
+~Relés de tensión.
+}
+
+En el arranque de motores de Corriente Directa (CD), los tres parámetros que varían de forma sensible y permiten el mando automático son: {
+=Tiempo, corriente y velocidad.
+~Flujo, momento y rigidez.
+~Tensión de línea, voltaje en armadura y resistencia de campo.
+~Frecuencia, deslizamiento y número de polos.
+}
+
+El mando de arranque de los motores de CD en función de la velocidad se realiza sensando indirectamente: {
+=La Fuerza Electromotriz (FEM) de armadura.
+~La corriente de armadura.
+~El deslizamiento del rotor.
+~La velocidad sincrónica.
+}
+
+¿Qué tipo de relé se utiliza en el mando de arranque de los motores de CD en función de la velocidad? {
+=Relés de tensión (RV).
+~Relés de corriente (KA).
+~Relés de frecuencia (RF).
+~Relés de tiempo que cuentan al desenergizarse.
+}
+
+¿Cuál es la desventaja principal del mando en función de la velocidad para el arranque de motores de CD? {
+=La dificultad de ajuste de las tensiones de conmutación debido a las variaciones de carga y tensión de la red.
+~El gran número de partes en movimiento que lo hace poco práctico.
+~El retardo excesivo que introduce en la secuencia de operación.
+~La disminución del par proporcional al cuadrado de la corriente.
+}
+
+¿Cómo se logra la reversibilidad de marcha en los motores de Corriente Directa (CD)? {
+=Invirtiendo la polaridad de la tensión del inducido o del devanado de excitación.
+~Invirtiendo dos de las fases de alimentación del estator.
+~Agregando una resistencia en serie con la armadura.
+~Utilizando devanados amortiguadores en el rotor.
+}
+
+En los esquemas de accionamiento reversibles de motores (CD o CA), se utilizan "bloqueos eléctricos" entre los contactores principales para: {
+=Impedir la conexión en sentido contrario.
+~Garantizar que ambas bobinas direccionales se energicen al mismo tiempo.
+~Sincronizar el motor con la red de alimentación.
+~Activar el frenado dinámico en caso de emergencia.
+}
+
+¿Cuál es la principal desventaja del arranque directo de línea en motores asincrónicos de jaula de ardilla (J/A) de 10 HP y mayores? {
+=Ocasiona perturbaciones en la red de alimentación, tanto por su intensidad como por el bajo factor de potencia.
+~Provoca que el motor pierda el sincronismo si aumenta la carga.
+~Se utiliza el mando solo en función del tiempo y no es regulable.
+~Requiere que el rotor tenga devanados amortiguadores.
+}
+
+Una de las principales desventajas del método de arranque Estrella-Delta (Y-Δ) es: {
+=Disminuye el par 3 veces y no es regulable.
+~Requiere de dispositivos auxiliares costosos como autotransformadores.
+~Solo se puede utilizar el frenado por contracorriente.
+~Necesita un relé de bloqueo de línea (RBL) para su funcionamiento.
+}
+
+El método de arranque por devanado parcial logra disminuir la corriente de arranque actuando sobre: {
+=La resistencia de los devanados, conectando inicialmente solo la mitad del devanado a la red.
+~La FEM de armadura, utilizando relés de tensión.
+~La tensión de alimentación, utilizando un autotransformador.
+~La inductancia del devanado del rotor.
+}
+
+En los motores de rotor bobinado (R/B), la conmutación de las resistencias de arranque se puede realizar en función de tres parámetros: {
+=Tiempo, velocidad y corriente.
+~Rigidez, carga y diapasón de regulación.
+~Par, flujo y tensión de línea.
+~Frecuencia, número de polos y deslizamiento.
+}
+
+En los esquemas de arranque de motor de rotor bobinado en función de la corriente, ¿cuál es la función del Relé de Bloqueo de Línea (RBL)? {
+=Introducir un retardo de tiempo en el circuito de control en espera de que los relés de aceleración actúen para la corriente de arranque.
+~Proteger el motor contra sobrecargas prolongadas.
+~Permitir el ajuste de la tensión de conmutación ante variaciones de carga.
+~Conectar la resistencia de descarga al campo del motor sincrónico.
+}
+
+¿Cómo se logra el frenado dinámico en los motores asincrónicos de CA trifásicos? {
+=Desconectando el motor de la red e inyectando corriente directa (CD) en el estator.
+~Permutando dos de las fases de alimentación del estator.
+~Cortocircuitando la bobina del relé de control.
+~Sensando la FEM de armadura con relés de tensión.
+}
+
+El frenado por contracorriente no se utiliza comúnmente en motores de jaula de ardilla (J/A) de potencia porque: {
+=No se tiene acceso al rotor para limitar la corriente de frenado que surge.
+~Requiere que el campo de excitación se conecte a una fuente de CD.
+~Es la forma más lenta de frenado disponible.
+~Solo funciona si se utiliza el mando en función del tiempo.
+}
+
+Para lograr el frenado dinámico en los motores de Corriente Directa (CD), ¿qué procedimiento se sigue? {
+=Se desconecta la armadura de la línea y el inducido se "shuntea" con una resistencia de frenado dinámico.
+~Se permutan las polaridades de la tensión del inducido mientras se aplica una resistencia.
+~Se utiliza un relé polarizado de frecuencia para censar la velocidad cero.
+~Se desconecta la fuente de excitación y se cortocircuita el inducido.
+}
+
+¿Cuál es la función de los devanados amortiguadores en los rotores de los motores sincrónicos (MS)? {
+=Obtener un par de arranque que les permita acelerar con alguna carga y evitar el movimiento pendular (péndulo).
+~Proporcionar la corriente continua necesaria para la excitación del campo.
+~Impedir que el flujo principal pase por cero dos veces por ciclo.
+~Permitir el frenado regenerativo en regímenes de velocidad variable.
+}
+
+Durante el arranque asincrónico de un motor sincrónico (MS), ¿qué procedimiento se utiliza para limitar las tensiones inducidas en el devanado de excitación? {
+=Cerrar el campo a través de una resistencia de descarga (cuyo valor oscila entre 5 y 15 veces la resistencia del campo).
+~Cortocircuitar el devanado de excitación instantáneamente.
+~Aplicar el frenado por contracorriente desde el estator.
+~Utilizar un relé de tiempo para conectar la excitación.
+}

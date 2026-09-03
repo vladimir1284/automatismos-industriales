@@ -18,8 +18,16 @@ theme:
 nav:
   - Home: index.md
   - Tareas: tareas/index.md
-  - Notas de clase: notas-clase/index.md
+  - Notas de clase:
+      - notas-clase/index.md
+      - Conferencia 1. Introducción a la AI: notas-clase/conf-01.md
+      - Conferencia 2. Sensores y sistemas de medición: notas-clase/conf-02.md
+      - Conferencia 3. Redes de campo: notas-clase/conf-03.md
+      - Conferencia 4. Relés y contactores (motores CD): notas-clase/conf-04.md
+      - Conferencia 5. Relés y contactores (motores CA): notas-clase/conf-05.md
+      - Conferencia 6. Autómatas programables (PLCs): notas-clase/conf-06.md
   - Proyectos: proyectos/index.md
+  - Banco de preguntas: preguntas/index.md
 
 markdown_extensions:
   - admonition

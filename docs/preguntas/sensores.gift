@@ -1,0 +1,494 @@
+﻿$CATEGORY: $course$/top/AIA
+
+$CATEGORY: $course$/top/AIA/Tema I
+
+$CATEGORY: $course$/top/AIA/Tema I/Sensores
+
+::Clasificación::La clasificación de los sensores puede realizarse convencionalmente atendiendo a{
+	~%25%Principio de conversión
+	~%25%Variable medida
+	~%25%Tecnología empleada 
+	~%25%Aplicación
+	~%-50%Velocidad de respuesta#Leer epígrafe 1.1.2 del libro de texto
+	~%-50%Distancia de operación#Leer epígrafe 1.1.2 del libro de texto
+}
+
+::Sensor::Se llama sensor al instrumento que{
+	~%33.333333%produce una señal que refleja el valor de una propiedad
+	~%33.333333%no alteran la propiedad sensada
+	~%33.333333%establece una correlación de acuerdo con su ganancia
+	~%-50%incide sobre las variables para controlar su valor#Leer epígrafe 1.1 del libro de texto
+	~%-50%muestra una indicación visual de la variable#Leer epígrafe 1.1 del libro de texto
+}
+
+::Sensores comunes para temperatura::Entre los sensores más comunes para temperatura encontramos{
+	~%33.333333%Termistores
+	~%33.333333%Termopares
+	~%33.333333%Termoresistencias
+	~%-50%Circuitos Integrados#Leer epígrafe 1.1.3 del libro de texto
+	~%-50%Pirómetros#Leer epígrafe 1.1.3 del libro de texto
+}
+
+::Termopares::Los termopares se caracterizan por{
+	~%33.333333%La sencillez de su construcción y por la precisión que permiten
+	~%33.333333%Bajo costo y gran fiabilidad
+	~%33.333333%Pueden medirse temperaturas desde -200ºC hasta cerca de 2000ºC
+	~%-50%Circuitos Integrados#Leer epígrafe 1.1.3.1 del libro de texto
+	~%-50%Pirómetros#Leer epígrafe 1.1.3.1 del libro de texto
+}
+
+::Termoresistencias::Las termoresistencias se caracterizan por{
+	~%33.333333%Permiten alcanzar una precisión mayor que la permitida por los termopares
+	~%33.333333%Son imprescindibles cuando se miden temperaturas cercanas a la temperatura ambiente
+	~%33.333333%Se basan en el  hecho de que la resistencia de los metales incrementa cuando se 
+                eleva la temperatura
+	~%-50%Pueden ser conectadas en oposición permitiendo la medición de la diferencia de 
+            temperaturas#Leer epígrafe 1.1.3.2 del libro de texto
+	~%-50%Tienen una característica de resistencia negativa#Leer epígrafe 1.1.3.2 del libro de texto
+}
+
+::Termistores::Los termistores se caracterizan por{
+	~%25%Tienen una característica de resistencia negativa
+	~%25%Es también un dispositivo cuya resistencia varía con la temperatura
+	~%25%Tienen una característica no lineal por lo que comúnmente no se emplean para obtener 
+                lecturas precisas de temperatura sino cambios de temperatura
+    ~%25%Pequeños cambios en la temperatura provocan grandes variaciones en su resistencia
+	~%-50%Se basan en el  hecho de que la resistencia de los metales incrementa cuando se 
+            eleva la temperatura#Leer epígrafe 1.1.3.3 del libro de texto
+	~%-50%Pueden medirse temperaturas desde -200ºC hasta cerca de 2000ºC#Leer epígrafe 1.1.3.3 del libro de texto
+}
+
+::Precisión de los termistores::La precisión típica de {
+=los termistores
+~los termopares#Leer epígrafe 1.1.3.3 del libro de texto
+~las termoresistencias#Leer epígrafe 1.1.3.3 del libro de texto
+} es del 1% pero son dispositivos no lineales, tienen un rango de 
+temperatura/resistencia limitado y pueden auto-calentarse.
+
+::PT100::En particular, {
+=las termoresistencias
+~los termopares#Leer epígrafe 1.1.3.2 del libro de texto
+~los termistores#Leer epígrafe 1.1.3.2 del libro de texto
+} para instrumentación más tradicionales se basan en la resistividad del platino, y el 
+elemento más típico tiene una resistencia de 100 Ω a 0ºC (de ahí su nombre PT100)
+
+::Tipos de termopares::Cada tipo difiere en el material de los metales del termopar varía{
+	~%50%el voltaje generado por unidad de grado
+	~%50%la máxima temperatura útil
+	~%-50%Circuitos Integrados#Leer epígrafe 1.1.3.1 del libro de texto
+	~%-50%Pirómetros#Leer epígrafe 1.1.3.1 del libro de texto
+}
+
+::Voltaje de los termopares::Por su naturaleza, {
+    =los termopares
+    ~las termoresistencias#Leer epígrafe 1.1.3.1 del libro de texto
+    ~los termistores#Leer epígrafe 1.1.3.1 del libro de texto
+ } presentan una resistencia prácticamente nula y su capacidad 
+de generar potencia es muy débil, por lo tanto, se utiliza un amplificador que debe solicitar 
+el mínimo posible de corriente desde el sensor. 
+
+::Otros sensores de temperatura::Sensores de temperatura menos comunes incluyen{
+	~%50%Circuitos Integrados
+	~%50%Pirómetros
+	~%-50%Galgas de Bourdon#Leer epígrafe 1.1.3.4 del libro de texto
+	~%-50%Sensores de membrana#Leer epígrafe 1.1.3.4 del libro de texto
+}
+
+::Circuitos Integrados Sensores de Temperatura::Los Circuitos Integrados Sensores de Temperatura se 
+caracterizan por{
+	~%25%Su salida es una lectura digital
+	~%25%Pueden ser más precisos que 0.01%
+	~%25%Están limitados en cuanto al rango de temperatura
+	~%25%Requieren conocimiento de interfaces para datos serie
+	~%-50%Son no lineales#Leer epígrafe 1.1.3.4 del libro de texto
+	~%-50%Se basan en la variación de su resistencia#Leer epígrafe 1.1.3.4 del libro de texto
+}
+
+::Pirómetros::Los Pirómetros se caracterizan por{
+	~%33.333333%Usan el calor radiante
+	~%33.333333%Son empleados en aplicaciones de altas temperaturas o en ambientes agresivos
+	~%33.333333%Se usan donde no es posible montar otros sensores ya que el área se mueve o tiene 
+            difícil acceso
+	~%-50%Se basan en el contacto de dos metales diferentes#Leer epígrafe 1.1.3.4 del libro de texto
+	~%-50%Se basan en la variación de su resistencia#Leer epígrafe 1.1.3.4 del libro de texto
+}
+
+::Sensores de presión::En el Sistema Internacional de unidades la presión se mide en{
+	~%50%Newtons por metro cuadrado (N/m2)
+	~%50%Pascal (Pa)
+	~%-50%Libra fuerza por pulgada cuadrada (lb/in²)#Leer epígrafe 1.1.4 del libro de texto
+	~%-50%BAR#Leer epígrafe 1.1.4 del libro de texto
+}
+
+::Presión manométrica::La diferencia entre la presión medida y la presión del ambiente es la{
+	=presión manométrica
+	~presión diferencial#Leer epígrafe 1.1.4 del libro de texto
+	~presión absoluta#Leer epígrafe 1.1.4 del libro de texto
+}
+
+::Tubos de Bourdon::Los Tubos de Bourdon se caracterizan por{
+	~%25%Está constituido por un tubo de sección elíptica enrollado circularmente en espiral o 
+        en hélice
+	~%25%Cuando la presión interior aumenta el tubo tiende a enderezarse
+	~%25%Están disponibles en rangos desde 200 hasta 700 000 kPa
+	~%25%Su empleo típico incluye manómetros para agua y vapor
+	~%-50%Emplean como órgano medidor un tubo metálico sin soldadura, en forma de 
+        fuelle#Leer epígrafe 1.1.4.1 del libro de texto
+	~%-50%Posee varias ondulaciones concéntricas#Leer epígrafe 1.1.4.1 del libro de texto
+}
+
+::Fuelles::Los sensores de presión tipo fuelle se caracterizan por{
+	~%25%Emplean como órgano medidor un tubo metálico sin soldadura, en forma de fuelle
+	~%25%Sus profundas ondulaciones se obtienen por laminación
+	~%25%Son más sensibles que los tubos de Bourdon en el rango de bajas presiones de 0 a 200 kPa
+	~%25%Puede emplearse para presión manométrica y para presión diferencial
+	~%-50%Está constituido por un tubo de sección elíptica enrollado circularmente en espiral o 
+        en hélice#Leer epígrafe 1.1.4.2 del libro de texto
+	~%-50%Posee varias ondulaciones concéntricas#Leer epígrafe 1.1.4.2 del libro de texto
+}
+
+::Sensores de presión a semiconductores::Los sensores de presión a semiconductores se caracterizan por{
+	~%25%Utilizan las propiedades piezoresistivas del silicio
+	~%25%Los elementos piezoresistivos convierten presiones directamente en resistencia
+	~%25%Tienen la ventaja de no tener partes móviles
+	~%25%Están disponibles en rangos de presiones desde 0 a 10 kPa y desde 0 a 34 000 kPa
+	~%-50%Utiliza metales especiales en su construcción que dependen del rango de 
+        medición#Leer epígrafe 1.1.4.3 del libro de texto
+	~%-50%Se basan en la radiación emitida por efecto de la presión#Leer epígrafe 1.1.4.3 del libro de texto
+}
+
+::Sensores de caudal::Los sensores de caudal pueden ser de varios tipos{
+	~%25%Los que se basan en presión diferencial
+	~%25%Aquellos que accionan un dispositivo mecánico
+	~%25%Los electromagnétcos
+	~%25%Los ultrasónicos
+	~%-50%Aquellos que se basan en la variación de la resistencia eléctrica#Leer epígrafe 1.1.5 del libro de texto
+	~%-50%Los que pueden medir la viscosidad del fluido#Leer epígrafe 1.1.5 del libro de texto
+}
+
+::Sensores basados en presión diferencial::Los sensores de caudal basados en presión diferencial se 
+caracterizan por{
+	~%50%Se basa en el hecho de que la presión de un fluido en movimiento es proporcional al caudal
+	~%50%Requiere dos tomas de presión
+	~%-50%Consiste de un juego de paletas o aspas acopladas a un eje las cuales giran cuando el 
+        fluido pasa  a través de ellas#Leer epígrafe 1.1.5.1 del libro de texto
+	~%-50%No presenta obstrucción al paso del líquido#Leer epígrafe 1.1.5.1 del libro de texto
+}
+
+::Desventaja de los sensores basados en presión diferencial::Una desventaja de este tipo de sensores es que ambos 
+causan caídas de presión en la tubería que pueden ser indeseables{
+	~%33.333333%Tubo de Venturi
+	~%33.333333%Placa de orificio
+	~%33.333333%Turbinas
+	~%-50%Electromagnéticos#Leer epígrafe 1.1.5.1 del libro de texto
+	~%-50%Ultrasónicos#Leer epígrafe 1.1.5.1 del libro de texto
+}
+
+::Turbinas::Los sensores de caudal  tipo turbina se caracterizan por{
+	~%33.333333%Consiste de un juego de paletas o aspas acopladas a un eje las cuales giran cuando el 
+        fluido pasa  a través de ellas
+	~%33.333333%Genera una señal eléctrica, de baja amplitud, con frecuencia proporcional a la velocidad 
+        del fluido que se mide
+	~%33.333333%Un contador electrónico de pulsos, que puede ser remoto, permite indicaciones digitales del caudal
+	~%-50%Se basa en la ley de inducción electromagnética de Faraday#Leer epígrafe 1.1.5.2 del libro de texto
+	~%-50%Se basa en la diferencia de velocidades del sonido al propagarse este en sentido del flujo del fluido 
+            y en el sentido contrario#Leer epígrafe 1.1.5.2 del libro de texto
+}
+
+::Medidores electromagnéticos de caudal::Los medidores electromagnéticos de caudal se caracterizan por{
+	~%33.333333%Requiere que el líquido tenga una conductividad eléctrica por encima de cierto mínimo
+	~%33.333333%El principio de estos medidores se basa en la ley de inducción electromagnética de Faraday
+	~%33.333333%Paso recto por el tubo de medida sin reducción de sección
+	~%-50%Requiere dos tomas de presión#Leer epígrafe 1.1.5.3 del libro de texto
+	~%-50%Genera una señal eléctrica, de baja amplitud, con frecuencia proporcional a la velocidad 
+        del fluido que se mide#Leer epígrafe 1.1.5.3 del libro de texto
+}
+
+::Medidor ultrasónico de caudal::Los medidores ultrasónico de caudal se caracterizan por{
+	~%33.333333%Puede medir el caudal por diferencia de velocidades del sonido al propagarse este en sentido del 
+                flujo del fluido y en el sentido contrario
+	~%33.333333%Puede basarse en el efecto Doppler
+	~%33.333333%El transmisor y el receptor tienen un impacto mínimo sobre el flujo de fluido y por lo tanto no 
+                provocan caídas de presión
+	~%-50%Requiere dos tomas de presión#Leer epígrafe 1.1.5.3 del libro de texto
+	~%-50%Genera una señal eléctrica, de baja amplitud, con frecuencia proporcional a la velocidad 
+        del fluido que se mide#Leer epígrafe 1.1.5.3 del libro de texto
+}
+
+::Desplazamiento angular::Los sensores de desplazamiento angular pueden ser{
+	~%50%Potenciómetros
+	~%50%Encoders
+	~%-100%Tacómetros#Leer epígrafe 1.1.7 del libro de texto
+}
+
+::Potenciómetros::Los potenciómetros se caracterizan por{
+	~%25%Ser un resistor construido normalmente con una delgada lámina de material resistivo
+	~%25%Posee una escobilla se mueve a lo largo de la superficie de la lámina resistiva
+	~%25%No son costosos ni requieren acondicionadores de señal especiales
+	~%25%Estar sujetos a desgaste mecánico
+	~%-50%Produce un dato de posición angular directamente en forma digital#Leer epígrafe 1.1.7.1 del libro de texto
+	~%-50%Se producen pulsos que pueden ser empleados para determinar desplazamiento#Leer epígrafe 1.1.7.1 del libro de texto
+}
+
+::Encoders::Los encoders se caracterizan por{
+	~%25%Produce un dato de posición angular directamente en forma digital, eliminando la necesidad de utilizar 
+        convertidores A/D
+	~%25%Consta de un disco rotatorio con ventanas ópticas
+	~%25%La luz de los emisores pasa a través de las ranuras hasta los detectores
+	~%25%Existen dos tipos fundamentales, absolutos e incrementales
+	~%-50%Estar sujetos a desgaste mecánico#Leer epígrafe 1.1.7.2 del libro de texto
+	~%-50%No son costosos#Leer epígrafe 1.1.7.2 del libro de texto
+}
+
+::Potenciómetros lineales::Los {
+    =potenciómetros
+    ~encoders#Leer epígrafe 1.1.9.1 del libro de texto
+    ~tacómetros#Leer epígrafe 1.1.9.1 del libro de texto
+} también existen en variantes constructivas con deslizadores lineales, capaces de medir desplazamientos lineales 
+de gran longitud utilizando como salida una señal de voltaje.
+
+::Transformador diferencial variable lineal::El transformador diferencial variable lineal se caracterizan por{
+	~%25%Sensor de posición es de alta resolución 
+	~%25%Dar a su salida una señal de voltaje AC con una magnitud proporcional a la posición lineal
+	~%25%Rango relativamente pequeño
+	~%25%Cuando el núcleo se encuentra en su posición central la salida neta es de cero volts
+	~%-50%Estar sujetos a desgaste mecánico#Leer epígrafe 1.1.9.2 del libro de texto
+	~%-50%Su precisión es mala#Leer epígrafe 1.1.9.2 del libro de texto
+}
+
+::Galgas de esfuerzo::Las galgas de esfuerzo se caracterizan por{
+	~%25%Se basa en que la resistencia eléctrica de un hilo conductor varía con la deformación mecánica
+	~%25%Se construye de alambre fino que se coloca usualmente en zigzag sobre un papel especial
+	~%25%Debe ser orientada para que el alambre esté alineado en el sentido de la deformación esperada
+	~%25%Se basa en la dependencia entre la resistencia y las dimensiones del material resistivo
+	~%-50%Produce una medición directa del peso del cuerpo#Leer epígrafe 1.1.10.1 del libro de texto
+	~%-50%Posee una escobilla se mueve a lo largo de la superficie de la lámina 
+        resistiva#Leer epígrafe 1.1.10.1 del libro de texto
+}
+
+::Sensores de carga a semiconductores::Los sensores de carga a semiconductores se caracterizan por{
+	~%33.333333%Utilizan el efecto piezoresistivo del silicio
+	~%33.333333%Son 25 a 100 veces más sensibles que las de tipo strain gauge
+	~%33.333333%El cambio en su resistencia es no lineal
+	~%-50%Se construye de alambre fino que se coloca usualmente en zigzag sobre un papel 
+        especial#Leer epígrafe 1.1.10.2 del libro de texto
+	~%-50%Se requiere un circuito puente para su medición#Leer epígrafe 1.1.10.2 del libro de texto
+}
+
+::Sensores ópticos::Los sensores de proximidad ópticos se caracterizan por{
+	~%33.333333%Emplean una fuente de luz y un fotosensor dispuestos de tal manera que el objeto a ser 
+                detectado corte la trayectoria del haz luminoso
+	~%33.333333%Pueden usar un reflector de manera que el detector y la fuente de luz puedan estar dispuestas 
+                en el mismo encapsulado
+	~%33.333333%La fuente de luz puede ser modulada para evitar la influencia de la luz ambiental
+	~%-50%Consta de un disco rotatorio con ventanas ópticas#Leer epígrafe 1.1.11.1 del libro de texto
+	~%-50%Se requiere un circuito puente para su medición#Leer epígrafe 1.1.11.1 del libro de texto
+}
+
+::Fotoresistencia::Las fotoresistencias se caracterizan por{
+	~%33.333333%Recibe el nombre de resistencia dependiente de la luz
+	~%33.333333%Modifica su resistencia eléctrica al ser expuesto a la energía luminosa
+	~%33.333333%Se basan en el efecto fotoeléctrico
+	~%-50%Se conecta polarizado inversamente de manera que la corriente de fuga tiene que ser amplificado por 
+        un amplificador operacional#Leer epígrafe 1.1.11.1 del libro de texto
+	~%-50%Genera un voltaje cuando sobre ella incide la luz#Leer epígrafe 1.1.11.1 del libro de texto
+}
+
+::Fotodiodo::Los fotodiodos se caracterizan por{
+	~%33.333333%La luz que incide sobre él genera una corriente eléctrica en el circuito externo
+	~%33.333333%Es un diodo encapsulado de tal forma que la unión PN queda expuesta a través de una ventana a 
+                la incidencia de la radiación luminosa
+	~%33.333333%Se conecta polarizado inversamente de manera que la corriente de fuga tiene que ser amplificado por 
+        un amplificador operacional
+	~%-50%Modifica su resistencia eléctrica al ser expuesto a la energía luminosa#Leer epígrafe 1.1.11.1 del libro de texto
+	~%-50%Genera un voltaje cuando sobre ella incide la luz#Leer epígrafe 1.1.11.1 del libro de texto
+}
+
+::Fototransistor::Los fototransistores se caracterizan por{
+	~%33.333333%Es un dispositivo fotoemisor más sensible que el fotodiodo
+	~%33.333333%Los fotones que inciden sobre la base del mismo son los que crean la corriente de base generando 
+                pares electrón-hueco en la unión colector-base
+	~%33.333333%Puede emplearse como un interruptor gobernado por luz si la iluminación toma solo dos valores
+	~%-50%Modifica su resistencia eléctrica al ser expuesto a la energía luminosa#Leer epígrafe 1.1.11.1 del libro de texto
+	~%-50%Genera un voltaje cuando sobre ella incide la luz#Leer epígrafe 1.1.11.1 del libro de texto
+}
+
+::Sensores Inteligentes::Los sensores Inteligentes se caracterizan por{
+	~%33.333333%Combina la función de detección y alguna de las funciones de procesamiento de señal y comunicación
+	~%33.333333%Requieren del uso de microprocesadores
+	~%33.333333%Posee una amplia gama de funciones además de las de transducción
+	~%-50%Incluyen un indicador visual#Leer epígrafe 1.1.12 del libro de texto
+	~%-50%Genera un voltaje cuando sobre ella incide la luz#Leer epígrafe 1.1.12 del libro de texto
+}
+
+La diferencia fundamental entre sensor y transductor radica en la eficiencia de la conversión 
+energética que es más trascendental en los transductores propiamente dichos {T#Leer epígrafe 1.1 del libro de texto}
+
+La diferencia fundamental entre sensor y transductor radica en que el transductor convierte una 
+forma de energía en otra {F#Leer epígrafe 1.1 del libro de texto}
+
+En la práctica se usan ciertos tipos normalizados de termopares, a los que se les cita por una 
+letra (las más típicas son las tipo J, K y T) {T#Leer epígrafe 1.1.3.1 del libro de texto}
+
+En la práctica se usan ciertos tipos normalizados de termoresistencias, a los que se les cita por una 
+letra (las más típicas son las tipo J, K y T) {F#Leer epígrafe 1.1.3.2 del libro de texto}
+
+En la práctica se usan ciertos tipos normalizados de termistores, a los que se les cita por una 
+letra (las más típicas son las tipo J, K y T) {F#Leer epígrafe 1.1.3.3 del libro de texto}
+
+Los termopares requieren un proceso de compensación relacionado con la temperatura de la unión 
+fría {T#Leer epígrafe 1.1.3.1 del libro de texto}
+
+Las termoresistencias requieren un proceso de compensación relacionado con la temperatura de la unión 
+fría {F#Leer epígrafe 1.1.3.2 del libro de texto}
+
+Los termistores requieren un proceso de compensación relacionado con la temperatura de la unión 
+fría {F#Leer epígrafe 1.1.3.3 del libro de texto}
+
+El elemento de medida de las termoresistencias puede ser un puente de medida de resistencia de 
+corriente directa o alterna {T#Leer epígrafe 1.1.3.2 del libro de texto}
+
+El elemento de medida de los termopares puede ser un puente de medida de resistencia de 
+corriente directa o alterna {F#Leer epígrafe 1.1.3.2 del libro de texto}
+
+Los pirómetros ópticos miden la temperatura captando toda o gran parte de la radiación emitida 
+por el cuerpo {F#Leer epígrafe 1.1.3.4 del libro de texto}
+
+El material empleado en la fabricación del manómetro de membrana se selecciona de acuerdo al uso que 
+vaya a tener el manómetro y la presión a medir {T#Leer epígrafe 1.1.4.2 del libro de texto}
+
+El sensor de caudal más sencillo es la placa de orificio {T#Leer epígrafe 1.1.5.1 del libro de texto}
+
+El sensor de caudal más sencillo es el tubo de Venturi {F#Leer epígrafe 1.1.5.1 del libro de texto}
+
+Los sensores de nivel discretos solo pueden detectar si el líquido está a un determinado 
+nivel {T#Leer epígrafe 1.1.6 del libro de texto}
+
+Los sensores de nivel discretos dan una señal analógica que es proporcional al 
+nivel {F#Leer epígrafe 1.1.6 del libro de texto}
+
+Los sensores de nivel continuos pueden implementarse con sensores de presión 
+diferencial{T#Leer epígrafe 1.1.6.2 del libro de texto}
+
+Una señal de salida de un encoder incremental puede utilizarse para medir velocidad angular ya que la frecuencia 
+de los pulsos generados es proporcional a la velocidad de desplazamiento{T#Leer epígrafe 1.1.8.1 del libro de texto}
+
+En todos los sensores de velocidad la salida es un voltaje inducido proporcional a la 
+velocidad{F#Leer epígrafe 1.1.8.2 del libro de texto}
+
+Un tipo de tacómetro consiste en un pequeño generador DC acoplado al eje rotatorio cuya velocidad 
+se quiere conocer{T#Leer epígrafe 1.1.8.2 del libro de texto}
+
+En el transformador diferencial variable lineal la magnitud representa la distancia que se desplaza el núcleo 
+desde el centro{T#Leer epígrafe 1.1.9.2 del libro de texto}
+
+En el transformador diferencial variable lineal la fase representa la distancia que se desplaza el núcleo desde 
+el centro{F#Leer epígrafe 1.1.9.2 del libro de texto}
+
+Los cambios en la resistencia de un strain guage son muy pequeños por lo que se requiere un circuito puente para 
+su medición{T#Leer epígrafe 1.1.10.1 del libro de texto}
+
+Las galgas de esfuerzo son inmunes a las variaciones de la temperatura{F#Leer epígrafe 1.1.10.1 del libro de texto}
+
+Un sensor de proximidad le dice al controlador si una parte móvil está en cierto 
+lugar{T#Leer epígrafe 1.1.11 del libro de texto}
+
+Un sensor de proximidad mide la distancia hasta un objeto determinado{F#Leer epígrafe 1.1.11 del libro de texto}
+
+La celda fotovoltaica puede ser empleada como un sensor debido a que genera un voltaje cuando sobre ella incide 
+la luz {T#Leer epígrafe 1.1.11.1 del libro de texto}
+
+El voltaje de salida de la celda fotovoltaica no necesita ser amplificado{F#Leer epígrafe 1.1.11.1 del libro de texto}
+
+::Especificaciones::Enlace las siguientes especificaciones con su definición{
+=Es la máxima diferencia entre el valor indicado y el valor real de la magnitud -> Precisión
+=Significa que la función que relaciona la variable de salida con la de entrada es una función 
+lineal -> Linealidad
+=Especifica la habilidad del instrumento para entregar la misma lectura en aplicaciones sucesivas 
+del mismo valor de la variable medida -> Repetibilidad
+=Diferencia entre los valores indicados por el sistema para un mismo valor de magnitud medida, 
+cuando se ha alcanzado este valor por valores crecientes o por valores decrecientes -> Histéresis
+=Límites naturales del sensor -> Rango
+=Los sensors tienen limitaciones con otros factores tales como temperature, humedad, 
+presión, existencia de polvo/aceite y atmósferas corrosivas -> Ambiente
+=El rango de frecuencia para la operación regular del sensor -> Respuesta dinámica
+=Cuando es fabricado o instalado, muchos sensores necesitan ajustar la relación entre el fenómeno 
+de entrada y la salida -> Calibración
+=Algunos sensores son muy económicos pero el costo del equipamiento para acondicionamiento de la 
+señal es significativo -> Factibilidad económica
+}
+
+::Comparación entre termopar y termoresistencia::En la comparación entre termopar y termoresistencia, 
+enlace las características con el tipo de sensor{
+    =Precisión de 0.5 a 5ºC -> Termopar
+    =Rango de -200 a +1750ºC -> Termopar
+    =Costo relativo 1 -> Termopar
+    =Respuesta de 50 ms a 5s -> Termopar
+    =Pueden ser muy pequeños -> Termopar
+    =Necesidad de referencia cero -> Termopar
+    =Resistente a las vibraciones -> Termopar
+    =No necesita fuente de alimentación -> Termopar
+    =No tiene efecto de auto-calentamiento -> Termopar
+    =Deriva a largo plazo -> Termopar
+    =Muy robusto -> Termopar
+    =Salida de 10-40 μV/ºC -> Termopar
+    =Necesitan apantallamiento -> Termopar
+    =Precisión de 0.1 a 1ºC -> Termoresistencia de platino
+    =Rango de -200 a +650ºC -> Termoresistencia de platino
+    =Costo relativo 2.5 -> Termoresistencia de platino
+    =Respuesta de 1 a 50s -> Termoresistencia de platino
+    =Tamaño mayor -> Termoresistencia de platino
+    =Afectado por las vibraciones -> Termoresistencia de platino
+    =Necesita fuente de alimentación -> Termoresistencia de platino
+    =La corriente debe ser limitada -> Termoresistencia de platino
+    =Excelente estabilidad -> Termoresistencia de platino
+    =Pueden ser frágiles -> Termoresistencia de platino
+    =Usa cables de cobre -> Termoresistencia de platino
+    =La salida cambia 0.4 Ω/ºC -> Termoresistencia de platino
+    =Pueden ser sin apantallamiento -> Termoresistencia de platino
+}
+
+::Sensores de nivel::Enlace las los tipos de sensores de nivel con sus características{
+    =Estos sensores determinan cuando un líquido alcanza cierto nivel -> Sensores de nivel discretos
+    =El tipo más sencillo utiliza un flotante y un interruptor límite -> Sensores de nivel discretos
+    =Cuando el líquido alcanza cierto nivel se acciona el interruptor límite -> Sensores de nivel discretos
+    =El nivel de activación puede ser ajustado mediante la posición del interruptor -> Sensores de nivel discretos
+    =Pueden emplearse fotoceldas ubicadas en las paredes del tanque -> Sensores de nivel discretos
+    =Puede realizarse en algunos líquidos mediante electrodos que conducen la electricidad alcanzado cierto 
+        nivel -> Sensores de nivel discretos
+    =Puede lograrse con un flotante que actúa sobre un sensor de posición el cual da una señal eléctrica 
+        proporcional a la altura del líquido -> Sensores de nivel continuos
+    =Puede basarse en el monitoreo del peso del líquido mediante celdas de carga -> Sensores de nivel continuos
+    =La salida del dispositivo es o bien un valor de resistencia o capacidad proporcional al 
+        nivel -> Sensores de nivel continuos
+    =Pueden usar detectores de rango ultrasónicos montados sobre el tanque -> Sensores de nivel continuos
+    =Puede lograrse a través de métodos hidrostáticos midiendo la presión en el fondo del 
+        tanque -> Sensores de nivel continuos
+}
+
+::Encoders::Enlace las los tipos de encoders con sus características{
+    =Genera una única palabra para cada posición del eje -> Encoders absolutos
+    =Son mayormente utilizados en aplicaciones donde los dispositivos permanecen inactivos por largos periodos 
+        de tiempo, existe riesgo de desenergizarse o la posición de arranque es desconocida -> Encoders absolutos
+    =Para aumentar la precisión es necesario adicionar más canales al disco y más emisores y detectores de 
+        luz -> Encoders absolutos
+    =Se producen dos pulsos que pueden ser empleados para determinar desplazamiento -> Encoders incrementales
+    =Para aumentar su precisión solo es necesario aumentar ventanas a los dos canales 
+        existentes -> Encoders incrementales
+    =Se utiliza software o circuitos lógicos para determinar la dirección de rotación -> Encoders incrementales
+    =Provee mayor resolución a menor costo -> Encoders incrementales
+}
+
+::Acondicionamiento de señales::Enlacce las técnicas de acondicionamiento de señal con su descripción{
+    =Aumenta el nivel de la señal de entrada para igualar el rango del convertidor analógico a digital (ADC), 
+    y de esta manera aumentar la resolución y sensibilidad de las medidas -> Amplificación
+    =Es necesario cuando los voltajes que serán digitalizados superan del rango de entrada del digitalizador 
+    y la señal de entrada debe ser disminuida -> Atenuación
+    =Pasan la señal de su fuente al dispositivo de medida sin una conexión física usando técnicas de transformador, 
+    ópticas o de acoplamiento capacitivo -> Aislamiento
+    =Permite enrutar en secuencia múltiples señales a un solo digitalizador brindando una manera rentable 
+    de incrementar la cantidad de canales del sistema -> Multiplexado
+    =Rechaza ruido no deseado dentro de un cierto rango de frecuencia -> Filtrado
+    =Prove una fuente de energía externa para realizar la medición -> Excitación
+    =Es una tecnología que se requiere para medidas exactas de termopares -> Compensación de unión fría
+}
