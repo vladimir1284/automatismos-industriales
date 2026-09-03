@@ -1,3 +1,6 @@
 .env
 site/
 .wrangler/
+.venv/
+__pycache__/
+
