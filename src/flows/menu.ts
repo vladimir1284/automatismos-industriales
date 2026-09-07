@@ -324,6 +324,12 @@ export async function handleCallbackQuery(
   }
 
   if (action === 'rq') {
+    const teacherUserIds = (env.TEACHER_USER_IDS || '').split(',').map((s: string) => parseInt(s.trim(), 10)).filter((n: number) => !isNaN(n));
+    if (!teacherUserIds.includes(userId)) {
+      await api.answerCallbackQuery({ callback_query_id: queryId, text: 'No autorizado.', show_alert: true });
+      return;
+    }
+
     const requestId = parseInt(parts[1], 10);
     const decision = parts[2]; // 'ap' or 'rj'
 
