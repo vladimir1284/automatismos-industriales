@@ -1,0 +1,19 @@
+name = "telegram-bot-variantes"
+main = "src/index.ts"
+compatibility_date = "2024-09-02"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "variantes-db"
+database_id = "local-db-id"
+
+[triggers]
+crons = ["*/5 * * * *", "0 * * * *", "0 3 * * *"]
+
+[vars]
+BOT_USERNAME = "VariantesBot"
+TEACHER_USER_IDS = "123456789"
+VARIANTS_SOURCE_URL = "https://automatismos.ladetec.com/proyectos/"
+GENERAL_TASKS_URL = "https://automatismos.ladetec.com/proyectos/variantes/00-tareas-generales/"
+RATE_LIMIT_PER_DAY = "5"
+REQUEST_TTL_DAYS = "7"

@@ -1,0 +1,21 @@
+{
+  "name": "telegram-bot-variantes",
+  "version": "1.0.0",
+  "description": "Telegram Bot for course variant assignment",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "wrangler deploy --dry-run",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240903.0",
+    "better-sqlite3": "^11.3.0",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5",
+    "wrangler": "^3.75.0"
+  },
+  "dependencies": {
+    "itty-router": "^5.0.18"
+  }
+}
