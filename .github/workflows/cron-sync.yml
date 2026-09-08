@@ -1,0 +1,15 @@
+name: cron-sync
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call variant sync job
+        run: |
+          curl -sf -X POST "https://telegram-bot-variantes.vladimir-7bb.workers.dev/jobs/sync" \
+            -H "X-Cron-Secret: ${{ secrets.CRON_SECRET }}"

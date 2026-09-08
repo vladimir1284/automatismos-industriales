@@ -12,6 +12,7 @@ export interface Env {
   DB: D1Database;
   TELEGRAM_BOT_TOKEN: string;
   TELEGRAM_WEBHOOK_SECRET?: string;
+  CRON_SECRET: string;
   BOT_USERNAME: string;
   TEACHER_USER_IDS: string;
   VARIANTS_SOURCE_URL: string;
@@ -23,6 +24,38 @@ export interface Env {
 const router = AutoRouter();
 
 router.get('/health', () => new Response('OK', { status: 200 }));
+
+function authCron(request: Request, env: Env): Response | null {
+  const header = request.headers.get('X-Cron-Secret');
+  if (!env.CRON_SECRET || header !== env.CRON_SECRET) {
+    return new Response('Unauthorized', { status: 401 });
+  }
+  return null;
+}
+
+router.post('/jobs/pinned', async (request: Request, env: Env, ctx: ExecutionContext) => {
+  const unauthorized = authCron(request, env);
+  if (unauthorized) return unauthorized;
+  const api = new TelegramApi(env.TELEGRAM_BOT_TOKEN);
+  await processPinnedJob(env, api);
+  return new Response('OK', { status: 200 });
+});
+
+router.post('/jobs/maintenance', async (request: Request, env: Env, ctx: ExecutionContext) => {
+  const unauthorized = authCron(request, env);
+  if (unauthorized) return unauthorized;
+  const api = new TelegramApi(env.TELEGRAM_BOT_TOKEN);
+  await processMaintenanceJob(env, api);
+  return new Response('OK', { status: 200 });
+});
+
+router.post('/jobs/sync', async (request: Request, env: Env, ctx: ExecutionContext) => {
+  const unauthorized = authCron(request, env);
+  if (unauthorized) return unauthorized;
+  const api = new TelegramApi(env.TELEGRAM_BOT_TOKEN);
+  await processVariantSyncJob(env, api);
+  return new Response('OK', { status: 200 });
+});
 
 router.post('/telegram', async (request: Request, env: Env, ctx: ExecutionContext) => {
   // 1. Authenticate secret token
@@ -171,17 +204,4 @@ router.post('/telegram', async (request: Request, env: Env, ctx: ExecutionContex
 
 export default {
   fetch: (request: Request, env: Env, ctx: ExecutionContext) => router.fetch(request, env, ctx),
-
-  async scheduled(event: ScheduledEvent, env: Env, ctx: ExecutionContext) {
-    const api = new TelegramApi(env.TELEGRAM_BOT_TOKEN);
-    const cron = event.cron;
-
-    if (cron === '*/5 * * * *') {
-      ctx.waitUntil(processPinnedJob(env, api));
-    } else if (cron === '0 * * * *') {
-      ctx.waitUntil(processMaintenanceJob(env, api));
-    } else if (cron === '0 3 * * *') {
-      ctx.waitUntil(processVariantSyncJob(env, api));
-    }
-  },
 };

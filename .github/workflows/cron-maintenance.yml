@@ -1,0 +1,15 @@
+name: cron-maintenance
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call maintenance job
+        run: |
+          curl -sf -X POST "https://telegram-bot-variantes.vladimir-7bb.workers.dev/jobs/maintenance" \
+            -H "X-Cron-Secret: ${{ secrets.CRON_SECRET }}"
