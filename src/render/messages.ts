@@ -133,6 +133,24 @@ export const MESSAGES = {
     `/cancelar — Cancelar la operación en curso\n` +
     `/ayuda — Mostrar esta ayuda`,
 
+  teacherHelpText: () =>
+    `<b>Comandos de profesor</b>\n\n` +
+    `/estado — Resumen del curso\n` +
+    `/pendientes — Alumnos sin variante\n` +
+    `/solicitudes — Solicitudes de cambio pendientes\n` +
+    `/asignar &lt;alumno&gt; &lt;nº variante&gt; — Asignar variante\n` +
+    `/mover &lt;alumno&gt; &lt;nº variante&gt; — Cambiar de variante\n` +
+    `/liberar &lt;alumno | nº variante&gt; — Liberar asignación\n` +
+    `/bloquear [alumno] — Bloquear alumno o cerrar el curso a cambios\n` +
+    `/desbloquear [alumno] — Desbloquear alumno o reabrir el curso\n` +
+    `/limite YYYY-MM-DD HH:MM — Fijar fecha límite\n` +
+    `/anunciar &lt;texto&gt; — Enviar anuncio al grupo\n` +
+    `/alumno_nuevo &lt;nombre&gt; — Registrar alumno manual\n` +
+    `/historial &lt;alumno | nº variante&gt; — Ver historial\n` +
+    `/exportar — Exportar asignaciones en CSV\n` +
+    `/sincronizar — Forzar sync de variantes\n` +
+    `/refrescar — Forzar refresco del mensaje fijado`,
+
   rateLimited: () =>
     `Has hecho muchos cambios hoy. Espera unas horas o escribe al profesor.`,
 

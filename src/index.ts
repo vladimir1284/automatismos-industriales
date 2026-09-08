@@ -182,6 +182,9 @@ router.post('/telegram', async (request: Request, env: Env, ctx: ExecutionContex
 
     if (text.startsWith('/ayuda')) {
       await api.sendMessage({ chat_id: userId, text: MESSAGES.helpText() });
+      if (isTeacher) {
+        await api.sendMessage({ chat_id: userId, text: MESSAGES.teacherHelpText() });
+      }
       return new Response('OK', { status: 200 });
     }
 
