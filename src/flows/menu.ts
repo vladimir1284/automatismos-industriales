@@ -40,7 +40,11 @@ export async function handleCallbackQuery(
     const courseId = session?.course_id ?? 1;
 
     if (sub === 'pick') {
-      await db.prepare('UPDATE sessions SET state = "PICK_WHO", updated_at = datetime("now") WHERE telegram_user_id = ?').bind(userId).run();
+      await db.prepare(
+        "INSERT INTO sessions (telegram_user_id, course_id, state, updated_at) VALUES (?, ?, 'PICK_WHO', datetime('now')) ON CONFLICT(telegram_user_id) DO UPDATE SET course_id = excluded.course_id, state = 'PICK_WHO', payload = NULL, updated_at = datetime('now')"
+      )
+        .bind(userId, courseId)
+        .run();
 
       const buttons = inlineKeyboard([
         [
@@ -85,8 +89,10 @@ export async function handleCallbackQuery(
       const link = await db.prepare('SELECT person_id FROM telegram_links WHERE course_id = ? AND telegram_user_id = ?').bind(courseId, userId).first<{ person_id: number }>();
 
       if (link) {
-        await db.prepare('UPDATE sessions SET state = "PICK_VARIANT_INPUT", payload = ?, updated_at = datetime("now") WHERE telegram_user_id = ?')
-          .bind(JSON.stringify({ person_id: link.person_id, for_self: true }), userId)
+        await db.prepare(
+          "INSERT INTO sessions (telegram_user_id, course_id, state, payload, updated_at) VALUES (?, ?, 'PICK_VARIANT_INPUT', ?, datetime('now')) ON CONFLICT(telegram_user_id) DO UPDATE SET course_id = excluded.course_id, state = 'PICK_VARIANT_INPUT', payload = excluded.payload, updated_at = datetime('now')"
+        )
+          .bind(userId, courseId, JSON.stringify({ person_id: link.person_id, for_self: true }))
           .run();
 
         if (message) {
@@ -97,8 +103,10 @@ export async function handleCallbackQuery(
           });
         }
       } else {
-        await db.prepare('UPDATE sessions SET state = "PICK_PERSON_INPUT", payload = ?, updated_at = datetime("now") WHERE telegram_user_id = ?')
-          .bind(JSON.stringify({ for_self: true }), userId)
+        await db.prepare(
+          "INSERT INTO sessions (telegram_user_id, course_id, state, payload, updated_at) VALUES (?, ?, 'PICK_PERSON_INPUT', ?, datetime('now')) ON CONFLICT(telegram_user_id) DO UPDATE SET course_id = excluded.course_id, state = 'PICK_PERSON_INPUT', payload = excluded.payload, updated_at = datetime('now')"
+        )
+          .bind(userId, courseId, JSON.stringify({ for_self: true }))
           .run();
 
         if (message) {
@@ -110,8 +118,10 @@ export async function handleCallbackQuery(
         }
       }
     } else {
-      await db.prepare('UPDATE sessions SET state = "PICK_PERSON_INPUT", payload = ?, updated_at = datetime("now") WHERE telegram_user_id = ?')
-        .bind(JSON.stringify({ for_self: false }), userId)
+      await db.prepare(
+        "INSERT INTO sessions (telegram_user_id, course_id, state, payload, updated_at) VALUES (?, ?, 'PICK_PERSON_INPUT', ?, datetime('now')) ON CONFLICT(telegram_user_id) DO UPDATE SET course_id = excluded.course_id, state = 'PICK_PERSON_INPUT', payload = excluded.payload, updated_at = datetime('now')"
+      )
+        .bind(userId, courseId, JSON.stringify({ for_self: false }))
         .run();
 
       if (message) {
@@ -130,7 +140,11 @@ export async function handleCallbackQuery(
     const forSelf = parts[2] === '1';
 
     if (personIdStr === 'retry') {
-      await db.prepare('UPDATE sessions SET state = "PICK_PERSON_INPUT" WHERE telegram_user_id = ?').bind(userId).run();
+      await db.prepare(
+        "INSERT INTO sessions (telegram_user_id, course_id, state, updated_at) VALUES (?, ?, 'PICK_PERSON_INPUT', datetime('now')) ON CONFLICT(telegram_user_id) DO UPDATE SET course_id = excluded.course_id, state = 'PICK_PERSON_INPUT', updated_at = datetime('now')"
+      )
+        .bind(userId, courseId)
+        .run();
       if (message) await api.editMessageText({ chat_id: message.chat.id, message_id: message.message_id, text: MESSAGES.searchStudentPrompt() });
       return;
     }
@@ -167,8 +181,10 @@ export async function handleCallbackQuery(
 
       if (!canDirectChange) {
         const person = await db.prepare('SELECT full_name FROM people WHERE id = ?').bind(personId).first<any>();
-        await db.prepare('UPDATE sessions SET state = "PICK_VARIANT_INPUT", payload = ? WHERE telegram_user_id = ?')
-          .bind(JSON.stringify({ person_id: personId, for_self: forSelf, is_request: true }), userId)
+        await db.prepare(
+          "INSERT INTO sessions (telegram_user_id, course_id, state, payload, updated_at) VALUES (?, ?, 'PICK_VARIANT_INPUT', ?, datetime('now')) ON CONFLICT(telegram_user_id) DO UPDATE SET course_id = excluded.course_id, state = 'PICK_VARIANT_INPUT', payload = excluded.payload, updated_at = datetime('now')"
+        )
+          .bind(userId, courseId, JSON.stringify({ person_id: personId, for_self: forSelf, is_request: true }))
           .run();
 
         const buttons = inlineKeyboard([
@@ -190,8 +206,10 @@ export async function handleCallbackQuery(
       }
     }
 
-    await db.prepare('UPDATE sessions SET state = "PICK_VARIANT_INPUT", payload = ? WHERE telegram_user_id = ?')
-      .bind(JSON.stringify({ person_id: personId, for_self: forSelf }), userId)
+    await db.prepare(
+      "INSERT INTO sessions (telegram_user_id, course_id, state, payload, updated_at) VALUES (?, ?, 'PICK_VARIANT_INPUT', ?, datetime('now')) ON CONFLICT(telegram_user_id) DO UPDATE SET course_id = excluded.course_id, state = 'PICK_VARIANT_INPUT', payload = excluded.payload, updated_at = datetime('now')"
+    )
+      .bind(userId, courseId, JSON.stringify({ person_id: personId, for_self: forSelf }))
       .run();
 
     if (message) {
@@ -217,17 +235,33 @@ export async function handleCallbackQuery(
 
   if (action === 'v') {
     const variantIdStr = parts[1];
+    const session = await db.prepare('SELECT * FROM sessions WHERE telegram_user_id = ?').bind(userId).first<any>();
+    const courseId = session?.course_id ?? 1;
+
     if (variantIdStr === 'retry') {
-      await db.prepare('UPDATE sessions SET state = "PICK_VARIANT_INPUT" WHERE telegram_user_id = ?').bind(userId).run();
+      await db.prepare(
+        "INSERT INTO sessions (telegram_user_id, course_id, state, updated_at) VALUES (?, ?, 'PICK_VARIANT_INPUT', datetime('now')) ON CONFLICT(telegram_user_id) DO UPDATE SET course_id = excluded.course_id, state = 'PICK_VARIANT_INPUT', updated_at = datetime('now')"
+      )
+        .bind(userId, courseId)
+        .run();
       if (message) await api.editMessageText({ chat_id: message.chat.id, message_id: message.message_id, text: MESSAGES.searchVariantPrompt(env.VARIANTS_SOURCE_URL) });
       return;
     }
 
     const variantId = parseInt(variantIdStr, 10);
-    const session = await db.prepare('SELECT * FROM sessions WHERE telegram_user_id = ?').bind(userId).first<any>();
-    const courseId = session?.course_id ?? 1;
-    const payload = session.payload ? JSON.parse(session.payload) : {};
+    const payload = session?.payload ? JSON.parse(session.payload) : {};
     const personId = payload.person_id;
+
+    if (!personId) {
+      if (message) {
+        await api.editMessageText({
+          chat_id: message.chat.id,
+          message_id: message.message_id,
+          text: MESSAGES.sessionExpired(),
+        });
+      }
+      return;
+    }
 
     const variant = await db.prepare('SELECT * FROM variants WHERE id = ?').bind(variantId).first<any>();
 
@@ -238,8 +272,10 @@ export async function handleCallbackQuery(
     }
 
     if (payload.is_request) {
-      await db.prepare('UPDATE sessions SET state = "REQUEST_REASON", payload = ? WHERE telegram_user_id = ?')
-        .bind(JSON.stringify({ ...payload, to_variant_id: variantId }), userId)
+      await db.prepare(
+        "INSERT INTO sessions (telegram_user_id, course_id, state, payload, updated_at) VALUES (?, ?, 'REQUEST_REASON', ?, datetime('now')) ON CONFLICT(telegram_user_id) DO UPDATE SET course_id = excluded.course_id, state = 'REQUEST_REASON', payload = excluded.payload, updated_at = datetime('now')"
+      )
+        .bind(userId, courseId, JSON.stringify({ ...payload, to_variant_id: variantId }))
         .run();
 
       if (message) {
