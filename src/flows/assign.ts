@@ -31,7 +31,7 @@ export async function handlePrivateStart(
   }
 
   await env.DB.prepare(
-    'INSERT INTO sessions (telegram_user_id, course_id, state, updated_at) VALUES (?, ?, "MENU", datetime("now")) ON CONFLICT(telegram_user_id) DO UPDATE SET course_id = excluded.course_id, state = "MENU", payload = NULL, updated_at = datetime("now")'
+    "INSERT INTO sessions (telegram_user_id, course_id, state, updated_at) VALUES (?, ?, 'MENU', datetime('now')) ON CONFLICT(telegram_user_id) DO UPDATE SET course_id = excluded.course_id, state = 'MENU', payload = NULL, updated_at = datetime('now')"
   )
     .bind(userId, courseId)
     .run();
@@ -370,8 +370,10 @@ export async function proceedToVariantConfirmation(
     }
   }
 
-  await env.DB.prepare('UPDATE sessions SET state = "CONFIRM", payload = ?, updated_at = datetime("now") WHERE telegram_user_id = ?')
-    .bind(JSON.stringify({ ...payload, person_id: personId, variant_id: variant.id }), userId)
+  await env.DB.prepare(
+    "INSERT INTO sessions (telegram_user_id, course_id, state, payload, updated_at) VALUES (?, ?, 'CONFIRM', ?, datetime('now')) ON CONFLICT(telegram_user_id) DO UPDATE SET course_id = excluded.course_id, state = 'CONFIRM', payload = excluded.payload, updated_at = datetime('now')"
+  )
+    .bind(userId, courseId, JSON.stringify({ ...payload, person_id: personId, variant_id: variant.id }))
     .run();
 
   const buttons = inlineKeyboard([
