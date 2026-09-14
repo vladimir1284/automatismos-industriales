@@ -178,6 +178,10 @@ En la actividad de hoy vimos los esquemas fundamentales que permiten realizar el
 2. ¿Qué se entiende por arranque a tensión reducida?
 3. ¿Cuándo se utiliza el frenado dinámico?
 
+## Preguntas guía para la discusión del proyecto
+
+Preguntas 34 a 82 de la [guía de preguntas para la discusión del proyecto](../proyectos/guia-preguntas-discusion.md#conferencias-4-y-5-reles-contactores-y-esquemas-de-mando-de-motores) se responden con el contenido de esta conferencia y de la Conferencia 4; una parte se apoya además en la bibliografía de abajo.
+
 ## Bibliografía
 
 1. *Accionamiento Eléctrico Automatizado II.* Ing. Mario Morera. Editorial Pueblo y Educación, Cuba, 1988. Págs. 40-90.

@@ -263,6 +263,10 @@ En la actividad de hoy explicamos las características de los instrumentos de me
 3. Mencione los instrumentos que se utilizan para cada una de las acciones mencionadas.
 4. Enumere las partes que integran un sistema de medición industrial.
 
+## Preguntas guía para la discusión del proyecto
+
+Preguntas 14 a 24 de la [guía de preguntas para la discusión del proyecto](../proyectos/guia-preguntas-discusion.md#conferencia-2-sensores-y-sistemas-de-medicion) se responden con el contenido de esta conferencia.
+
 ## Bibliografía
 
 1. *Temas Especiales de Instrumentación y Control.* Dr. C. Julio R. Gómez Sarduy, MSc. Roy Reyes Calvo y Dr. C. Daniel Guzmán del Río. Capítulo I.

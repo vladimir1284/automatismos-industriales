@@ -293,6 +293,10 @@ En la actividad de hoy vimos los componentes fundamentales que permiten realizar
 5. ¿Qué se entiende por bloqueo eléctrico?
 6. ¿Cuándo se utiliza el bloqueo eléctrico?
 
+## Preguntas guía para la discusión del proyecto
+
+Preguntas 34 a 82 de la [guía de preguntas para la discusión del proyecto](../proyectos/guia-preguntas-discusion.md#conferencias-4-y-5-reles-contactores-y-esquemas-de-mando-de-motores) se responden con el contenido de esta conferencia y de la Conferencia 5; una parte se apoya además en la bibliografía de abajo.
+
 ## Bibliografía
 
 1. *Accionamiento Eléctrico Automatizado II.* Ing. Mario Morera. Editorial Pueblo y Educación, Cuba, 1988. Págs. 1-70.

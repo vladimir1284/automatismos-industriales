@@ -307,6 +307,10 @@ En la actividad de hoy caracterizamos los PLC y aprendimos algunas de las estrat
 2. ¿Para qué son utilizados los PLC?
 3. ¿Cuáles son las características de los PLC que permiten su amplia utilización?
 
+## Preguntas guía para la discusión del proyecto
+
+Preguntas 83 a 90 de la [guía de preguntas para la discusión del proyecto](../proyectos/guia-preguntas-discusion.md#conferencia-6-aspectos-generales-sobre-los-automatas-programables-plcs) se responden con el contenido de esta conferencia — incluidas la 85 y la 90, de respuesta obligatoria en el informe.
+
 ## Bibliografía
 
 1. *Automatización. Problemas resueltos con autómatas programables.* J. Pedro Romera, Antonio Morite y Sebastián Montoso.<!-- el nombre del tercer autor aparece como "Sebastian Montoro" en el original de esta conferencia y "Sebastián Montoso" en Conf1 — inconsistencia entre documentos, verificar cuál es el correcto -->

@@ -5,6 +5,7 @@ Variantes de proyecto del curso. Un fichero por variante; las figuras están en
 `.md` correspondiente.
 
 - [00-tareas-generales.md](variantes/00-tareas-generales.md) — las 9 tareas que se piden para cualquier variante.
+- [Guía de preguntas para la discusión](guia-preguntas-discusion.md) — preguntas de preparación para la discusión final, con enlaces a dónde se responde cada una en las notas de clase.
 
 | # | Variante | Fichero |
 |---|---|---|

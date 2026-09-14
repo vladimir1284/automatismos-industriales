@@ -188,6 +188,10 @@ En la actividad de hoy explicamos qué es un bus de campo, sus características,
 4. Enuncie las características del protocolo Modbus.
 5. Enuncie las facilidades de empleo de cada una de ellas.
 
+## Preguntas guía para la discusión del proyecto
+
+Preguntas 25 a 33 de la [guía de preguntas para la discusión del proyecto](../proyectos/guia-preguntas-discusion.md#conferencia-3-redes-de-campo-y-redes-industriales-de-comunicacion-en-tiempo-real) se responden con el contenido de esta conferencia.
+
 ## Bibliografía
 
 1. Tema 9. *Buses de campo.* Universidad de Oviedo.

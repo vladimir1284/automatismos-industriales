@@ -11,3 +11,8 @@ A partir de la variante asignada realice las siguientes tareas:
 7. Diseñar un sistema de supervisión a través de una red industrial.
 8. Elaborar el informe con la ayuda del material entregado.
 9. Preparar medios para exponer la tarea extraclase.
+
+Además, el informe debe responder explícitamente las preguntas 5, 12, 85 y
+90 de la [guía de preguntas para la discusión](../guia-preguntas-discusion.md)
+(elementos de entrada/salida del proceso, aspectos a definir antes de elegir
+tecnología, función de las partes del autómata y ciclo de trabajo del PLC).

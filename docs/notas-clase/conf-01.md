@@ -310,6 +310,10 @@ En la actividad de hoy se explicaron aspectos generales de la asignatura, incluy
 2. Mencione las desventajas asociadas a la automatización industrial. Explique en qué están fundamentadas.
 3. Identifique los diferentes niveles de automatización relacionándolos con tareas a ellos asociadas.
 
+## Preguntas guía para la discusión del proyecto
+
+Preguntas 1 a 13 de la [guía de preguntas para la discusión del proyecto](../proyectos/guia-preguntas-discusion.md#conferencia-1-introduccion-a-la-automatizacion-industrial) se responden con el contenido de esta conferencia — incluida la 5, de respuesta obligatoria en el informe.
+
 ## Bibliografía y estudio independiente
 
 1. *Automatización. Problemas resueltos con autómatas programables.* J. Pedro Romera, Antonio Morite y Sebastián Montoso. Páginas 1-17.
